@@ -7,22 +7,22 @@
 <ul>
     <li>Task_1 - Create README.md file <b>✔</b></li>
     <li>Task 2 - Create initial project backlog (if will be need may be changed) <b>✔</b></li>
-    <li><b><span style="color: red;">☐</span></b> Task 3 - Plan and Document backlog in a list on this document</li>
-    <li><b><span style="color: red;">☐</span></b> Task 4 - Generic Code Review to correct the project pattern (to consider test another APIs)</li>
-    <li><b><span style="color: red;">☐</span></b> Task 5 - Complete basic flow to the reqres api</li>
-    <li><b><span style="color: red;">☐</span></b> Task 6 - Separete Tests for Categories</li>
-    <li><b><span style="color: red;">☐</span></b> Task 7 - Implement Tests Rules (Timeouts and Expecteds)</li>
-    <li><b><span style="color: red;">☐</span></b> Task 8 - Implement Tests Exceptions</li>
-    <li><b><span style="color: red;">☐</span></b> Task 9 - Create Parameterized Class Test to run multiple tests</li>
-    <li><b><span style="color: red;">☐</span></b> Task 10 - Implement runner functionality</li>
-    <li><b><span style="color: red;">☐</span></b> Task 11 - Implement report functionality</li>
-    <li><b><span style="color: red;">☐</span></b> Task 12 - Implement pdf report after tests</li>
-    <li><b><span style="color: red;">☐</span></b> Task 13 - Implement tests to consumer a XML Soap Web Service</li>
-    <li><b><span style="color: red;">☐</span></b> Task 14 - Implement a case using Mocks</li>
-    <li><b><span style="color: red;">☐</span></b> Task 15 - Implement a case integrated with JSoup library</li>
-    <li><b><span style="color: red;">☐</span></b> Task 16 - Implement a case integrated with Selenium</li>
-    <li><b><span style="color: red;">☐</span></b> Task 17 - Analyse if we gonna implement some graphical interface</li>
-    <li><b><span style="color: red;">☐</span></b> Task 18 - Generate Jars and Document to Download</li>
+    <li><b><font color="red">☐</font></b> Task 3 - Plan and Document backlog in a list on this document</li>
+    <li><b><font color="red">☐</font></b> Task 4 - Generic Code Review to correct the project pattern (to consider test another APIs)</li>
+    <li><b><font color="red">☐</font></b> Task 5 - Complete basic flow to the reqres api</li>
+    <li><b><font color="red">☐</font></b> Task 6 - Separete Tests for Categories</li>
+    <li><b><font color="red">☐</font></b> Task 7 - Implement Tests Rules (Timeouts and Expecteds)</li>
+    <li><b><font color="red">☐</font></b> Task 8 - Implement Tests Exceptions</li>
+    <li><b><font color="red">☐</font></b> Task 9 - Create Parameterized Class Test to run multiple tests</li>
+    <li><b><font color="red">☐</font></b> Task 10 - Implement runner functionality</li>
+    <li><b><font color="red">☐</font></b> Task 11 - Implement report functionality</li>
+    <li><b><font color="red">☐</font></b> Task 12 - Implement pdf report after tests</li>
+    <li><b><font color="red">☐</font></b> Task 13 - Implement tests to consumer a XML Soap Web Service</li>
+    <li><b><font color="red">☐</font></b> Task 14 - Implement a case using Mocks</li>
+    <li><b><font color="red">☐</font></b> Task 15 - Implement a case integrated with JSoup library</li>
+    <li><b><font color="red">☐</font></b> Task 16 - Implement a case integrated with Selenium</li>
+    <li><b><font color="red">☐</font></b> Task 17 - Analyse if we gonna implement some graphical interface</li>
+    <li><b><font color="red">☐</font></b> Task 18 - Generate Jars and Document to Download</li>
 </ul>
 
 <h2>Release/1.00</h2>
@@ -39,5 +39,5 @@
             <li>Defined Requiries and created initial project backlog. </li>
         </ul>
     </li>
-    <li><b><span style="color: red;">☐</span> Task 3 - Plan and Document backlog in a list on this document</b></li>
+    <li><b><font color="red">☐</font> Task 3 - Plan and Document backlog in a list on this document</b></li>
 </ul>
