@@ -27,20 +27,17 @@
 
 <h2>Release/1.00</h2>
 
-<ul>
-    
+<ul>   
     <li>Task_1 - Create README.md file <b>✔</b> <br>
         <ul>
             <li>Created initial basic project structure.</li>
             <li>Created Inicial README.md.</li>
         </ul>
     </li>
-    
     <li>Task 2 - Created initial project backlog (if will be need may be changed) <b>✔</b> <br>
         <ul>
             <li>Defined Requiries and created initial project backlog. </li>
         </ul>
     </li>
-
     <li>☐ Task 3 - Plan and Document backlog in a list on this document</li>
 </ul>
