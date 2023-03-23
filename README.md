@@ -34,7 +34,7 @@
 
 <h2>Sprints</h2>
 
-<p><b>Sprint 1</b>Starts 23-03-2023 - Finish 23-03-2023</p>
+<p><b><a href="https://github.com/devBino/study_junit_plus_restassured/blob/task_3/sprints/SPRINT1.md">Sprint 1</a></b>Starts 23-03-2023 - Finish 23-03-2023</p>
 <p><b>Sprint 2</b>Starts 24-03-2023 - Finish 24-03-2023</p>
 <p><b>Sprint 3</b>Starts 25-03-2023 - Finish 25-03-2023</p>
 <p><b>Sprint 4</b>Starts 26-03-2023 - Finish 26-03-2023</p>
