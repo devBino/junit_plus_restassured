@@ -164,6 +164,10 @@ initial basic project structure.
 
 <br>
 
+![Gráfico de Linhas](https://raw.githubusercontent.com/devBino/file_repo/master/study_junit_plus_restassured/spi/grafico_spi.png)
+
+<br>
+
 <p>
 <b>OBS: </b> This SPI can have significative changes according to backlog project changes or project scope changes.
 </p>
