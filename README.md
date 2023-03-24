@@ -138,7 +138,7 @@ initial basic project structure.
 </p>
 
 <p><b>Day 1:</b> [Expected 0,8333 Done 3] SPI = 3,6 <b>✔</b></p>
-<p><b>Day 2:</b> [Expected 1,6667 Done ?] SPI = ?  </p>
+<p><b>Day 2:</b> [Expected 1,6667 Done 3] SPI = 1,8 <b>✔</b></p>
 <p><b>Day 3:</b> [Expected 2,5000 Done ?] SPI = ?  </p>
 <p><b>Day 4:</b> [Expected 3,3333 Done ?] SPI = ?  </p>
 <p><b>Day 5:</b> [Expected 4,1667 Done ?] SPI = ?  </p>
