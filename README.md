@@ -77,7 +77,7 @@
 
 <h2 id="h2-sprints">Sprints</h2>
 
-<p><b><a href="#h2-sprint1"> Sprint 1</a></b> Starts 23-03-2023 - Finish 24-03-2023</p>
+<p><b><a href="#h2-sprint1"> Sprint 1</a></b> Starts 23-03-2023 - Finish 24-03-2023 <b>Current</b></p>
 <p><b> Sprint 2</b> Starts 25-03-2023 - Finish 26-03-2023</p>
 <p><b> Sprint 3</b> Starts 27-03-2023 - Finish 28-03-2023</p>
 <p><b> Sprint 4</b> Starts 29-03-2023 - Finish 30-03-2023</p>
