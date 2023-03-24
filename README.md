@@ -92,7 +92,7 @@
 
 <br>
 
-<h2 id="h2-sprint1">SPRINT 1 da <a href="#h2-sprints">Lista de Sprints</a></h2><br>
+<h2 id="h2-sprint1">SPRINT 1</h2><br>
 
 <br>
 
@@ -117,6 +117,7 @@ initial basic project structure.
     <li><b>☐</b> Task 4 - Generic Code Review to correct the project pattern (to consider test another APIs)</li>
 </ul>
 
+<a href="#h2-sprints">Go Back List Sprints</a><br>
 <a href="#h2-summary">Go Back Summary</a>
 
 <br>
