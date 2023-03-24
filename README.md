@@ -34,18 +34,18 @@
 
 <h2 id="h2-sprints">Sprints</h2>
 
-<p><b><a href="#h2-sprint1">=> Sprint 1</a></b>Starts 23-03-2023 - Finish 23-03-2023</p>
-<p><b>Sprint 2</b>Starts 24-03-2023 - Finish 24-03-2023</p>
-<p><b>Sprint 3</b>Starts 25-03-2023 - Finish 25-03-2023</p>
-<p><b>Sprint 4</b>Starts 26-03-2023 - Finish 26-03-2023</p>
-<p><b>Sprint 5</b>Starts 27-03-2023 - Finish 27-03-2023</p>
-<p><b>Sprint 6</b>Starts 28-03-2023 - Finish 28-03-2023</p>
-<p><b>Sprint 7</b>Starts 29-03-2023 - Finish 29-03-2023</p>
-<p><b>Sprint 8</b>Starts 30-03-2023 - Finish 30-03-2023</p>
-<p><b>Sprint 9</b>Starts 31-03-2023 - Finish 31-03-2023</p>
-<p><b>Sprint 10</b>Starts 01-04-2023 - Finish 01-04-2023</p>
+<p><b><a href="#h2-sprint1"> Sprint 1</a></b>Starts 23-03-2023 - Finish 23-03-2023</p>
+<p><b> Sprint 2</b>Starts 24-03-2023 - Finish 24-03-2023</p>
+<p><b> Sprint 3</b>Starts 25-03-2023 - Finish 25-03-2023</p>
+<p><b> Sprint 4</b>Starts 26-03-2023 - Finish 26-03-2023</p>
+<p><b> Sprint 5</b>Starts 27-03-2023 - Finish 27-03-2023</p>
+<p><b> Sprint 6</b>Starts 28-03-2023 - Finish 28-03-2023</p>
+<p><b> Sprint 7</b>Starts 29-03-2023 - Finish 29-03-2023</p>
+<p><b> Sprint 8</b>Starts 30-03-2023 - Finish 30-03-2023</p>
+<p><b> Sprint 9</b>Starts 31-03-2023 - Finish 31-03-2023</p>
+<p><b> Sprint 10</b>Starts 01-04-2023 - Finish 01-04-2023</p>
 
-<h2 id="h2-sprint1">SPRINT 1 <a href="#h2-sprints"><=</h2><br>
+<h2 id="h2-sprint1">SPRINT 1 da <a href="#h2-sprints">Lista de Sprints</a></h2><br>
 <br>
 <ul>   
     <li><b> Task_1 - Create README.md file ✔</b> <br>
