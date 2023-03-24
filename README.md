@@ -32,9 +32,9 @@
 <p><b>2</b> - Inittialy, all tasks will be distributed in 10 Sprints.</p>
 <p><b>3</b> - Each Sprint will have duration 1 (one) day (Considering faster learning project scope and also considering I'm unic stackholder)</p>
 
-<h2>Sprints</h2>
+<h2 id="h2-sprints">Sprints</h2>
 
-<p><b><a href="https://github.com/devBino/study_junit_plus_restassured/blob/task_3/sprints/SPRINT1.md">Sprint 1</a></b>Starts 23-03-2023 - Finish 23-03-2023</p>
+<p><b><a href="#h2-sprint1">=> Sprint 1</a></b>Starts 23-03-2023 - Finish 23-03-2023</p>
 <p><b>Sprint 2</b>Starts 24-03-2023 - Finish 24-03-2023</p>
 <p><b>Sprint 3</b>Starts 25-03-2023 - Finish 25-03-2023</p>
 <p><b>Sprint 4</b>Starts 26-03-2023 - Finish 26-03-2023</p>
@@ -44,5 +44,24 @@
 <p><b>Sprint 8</b>Starts 30-03-2023 - Finish 30-03-2023</p>
 <p><b>Sprint 9</b>Starts 31-03-2023 - Finish 31-03-2023</p>
 <p><b>Sprint 10</b>Starts 01-04-2023 - Finish 01-04-2023</p>
+
+<h2 id="h2-sprint1">SPRINT 1 <a href="#h2-sprints"><=</h2><br>
+<br>
+<ul>   
+    <li><b> Task_1 - Create README.md file ✔</b> <br>
+        <ul>
+            <li>Created initial basic project structure.</li>
+            <li>Created Inicial README.md.</li>
+        </ul>
+    </li>
+    <li><b> Task 2 - Created initial project backlog (if will be need may be changed) ✔</b> <br>
+        <ul>
+            <li>Defined Requiries and created initial project backlog. </li>
+        </ul>
+    </li>
+    <li><b>☐</b> Task 3 - Plan and Document backlog in a list on this document</b></li>
+    <li><b>☐</b> Task 4 - Generic Code Review to correct the project pattern (to consider test another APIs)</li>
+</ul>
+
 
 <h2>Releases</h2>
