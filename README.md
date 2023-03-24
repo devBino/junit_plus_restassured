@@ -35,7 +35,7 @@
 
 <p><b>1</b> - Project will be executed according to the initial project backlog defined (backlog will change if will be need).</p>
 <p><b>2</b> - Inittialy, all tasks will be distributed in 10 Sprints.</p>
-<p><b>3</b> - Each Sprint will have duration 2 (two) days (Considering faster learning project scope and also considering I'm unic stackholder)</p>
+<p><b>3</b> - Each Sprint will have duration 2 (two) days (Considering faster learning project scope and also considering I'm only stackholder)</p>
 <p><b>4</b> - Don't need dailys, just see for the sprint goal and try finish all itens inside the time box</p>
 <p><b>5</b> - All sprints when starts, will be need to define a goal considering a little backlog tasks.</p>
 <p><b>6</b> - Don't need sprint plain review, considering this project has learning goal, and it needs to complete faster.</p>
@@ -93,7 +93,14 @@
 <br>
 
 <h2 id="h2-sprint1">SPRINT 1 da <a href="#h2-sprints">Lista de Sprints</a></h2><br>
+
 <br>
+
+<p>
+<b>Sprint Goal: </b> Work to finish initial basic documentation, plan backlog and work to finish 
+initial basic project structure.
+</p>
+
 <ul>   
     <li><b> Task_1 - Create README.md file ✔</b> <br>
         <ul>
