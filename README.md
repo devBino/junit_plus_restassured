@@ -134,33 +134,39 @@ initial basic project structure.
 
 <p>
     Considering that we have 12 Sprints during 24 days, and 20 initial backlog tasks, 
-    for each day we needs to grouth 0,8333 task. So below we have a SPI indicator for each day
+    we needs to grow 0,8333 task(s) per day. So below we have a SPI indicator for each day:
 </p>
 
-<p><b>Day 1: Expected 0,8333 Done 3 SPI = 3,6 </b></p>
-<p><b>Day 2: Expected 1,6667 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 3: Expected 2,5000 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 4: Expected 3,3333 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 5: Expected 4,1667 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 6: Expected 5,0000 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 7: Expected 5,8333 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 8: Expected 6,6667 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 9: Expected 7,5000 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 10: Expected 8,3333 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 11: Expected 9,1667 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 12: Expected 10,0000 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 13: Expected 10,8333 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 14: Expected 11,6667 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 15: Expected 12,5000 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 16: Expected 13,3333 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 17: Expected 14,1667 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 18: Expected 15,0000 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 19: Expected 15,8333 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 20: Expected 16,6667 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 21: Expected 17,5000 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 22: Expected 18,3333 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 23: Expected 19,1667 Done [NA] SPI = [NA]  </b></p>
-<p><b>Day 24: Expected 20,0000 Done [NA] SPI = [NA]  </b></p>
+<p><b>Day 1:</b> Expected 0,8333 Done 3 SPI = 3,6 <b>✔</b></p>
+<p><b>Day 2:</b> Expected 1,6667 Done [NA] SPI = [NA]  </p>
+<p><b>Day 3:</b> Expected 2,5000 Done [NA] SPI = [NA]  </p>
+<p><b>Day 4:</b> Expected 3,3333 Done [NA] SPI = [NA]  </p>
+<p><b>Day 5:</b> Expected 4,1667 Done [NA] SPI = [NA]  </p>
+<p><b>Day 6:</b> Expected 5,0000 Done [NA] SPI = [NA]  </p>
+<p><b>Day 7:</b> Expected 5,8333 Done [NA] SPI = [NA]  </p>
+<p><b>Day 8:</b> Expected 6,6667 Done [NA] SPI = [NA]  </p>
+<p><b>Day 9:</b> Expected 7,5000 Done [NA] SPI = [NA]  </p>
+<p><b>Day 10:</b> Expected 8,3333 Done [NA] SPI = [NA]  </p>
+<p><b>Day 11:</b> Expected 9,1667 Done [NA] SPI = [NA]  </p>
+<p><b>Day 12:</b> Expected 10,0000 Done [NA] SPI = [NA]  </p>
+<p><b>Day 13:</b> Expected 10,8333 Done [NA] SPI = [NA]  </p>
+<p><b>Day 14:</b> Expected 11,6667 Done [NA] SPI = [NA]  </p>
+<p><b>Day 15:</b> Expected 12,5000 Done [NA] SPI = [NA]  </p>
+<p><b>Day 16:</b> Expected 13,3333 Done [NA] SPI = [NA]  </p>
+<p><b>Day 17:</b> Expected 14,1667 Done [NA] SPI = [NA]  </p>
+<p><b>Day 18:</b> Expected 15,0000 Done [NA] SPI = [NA]  </p>
+<p><b>Day 19:</b> Expected 15,8333 Done [NA] SPI = [NA]  </p>
+<p><b>Day 20:</b> Expected 16,6667 Done [NA] SPI = [NA]  </p>
+<p><b>Day 21:</b> Expected 17,5000 Done [NA] SPI = [NA]  </p>
+<p><b>Day 22:</b> Expected 18,3333 Done [NA] SPI = [NA]  </p>
+<p><b>Day 23:</b> Expected 19,1667 Done [NA] SPI = [NA]  </p>
+<p><b>Day 24:</b> Expected 20,0000 Done [NA] SPI = [NA]  </p>
+
+<br>
+
+<p>
+<b>OBS: </b> This SPI can have significative changes according to backlog project changes or project scope changes.
+</p>
 
 <a href="#h2-summary">Go Back Summary</a>
 
