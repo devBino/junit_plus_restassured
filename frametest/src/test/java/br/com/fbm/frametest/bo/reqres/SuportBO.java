@@ -1,4 +1,4 @@
-package br.com.fbm.frametest.bo;
+package br.com.fbm.frametest.bo.reqres;
 
 import java.io.Serializable;
 

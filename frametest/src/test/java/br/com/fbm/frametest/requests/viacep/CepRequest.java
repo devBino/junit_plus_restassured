@@ -1,4 +1,4 @@
-package br.com.fbm.frametest.requests;
+package br.com.fbm.frametest.requests.viacep;
 
 import static io.restassured.RestAssured.*;
 

@@ -1,17 +1,26 @@
+/*
+ * COPYRIGHT NTT DATA 2023 - ALL RIGHTS RESERVED.
+ * 
+ * This software is only to be used for the purpose for which it has been
+ * provided. No part of it is to be reproduced, disassembled, transmitted,
+ * stored in a retrieval system nor translated in any human or computer
+ * language in any way or for any other purposes whatsoever without the prior
+ * written consent of NTT DATA.
+ */
 package br.com.fbm.frametest.converters;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * {@code UserConverter} given implementations
+ * {@code AbstractConverter} given implementations
  * to converter {@code Response#getBody().asString()}
- * to {@code UserBO} and {@code ResponseUsersBO}
+ * to {@code ObjectBO}
  *
  * @author Fernando Bino Machado
  */
-public class UserConverter {
+public abstract class AbstractConverter {
 
-	private static ObjectMapper objMapper = new ObjectMapper();
+	protected static ObjectMapper objMapper = new ObjectMapper();
 	
 	public static String objBoToString(final Object pRespBO) {
 		try {
@@ -36,6 +45,6 @@ public class UserConverter {
 			return null;
 		}
 	}
-
 	
+
 }

@@ -1,9 +1,9 @@
-package br.com.fbm.frametest.requests;
+package br.com.fbm.frametest.requests.reqres;
 
 import static io.restassured.RestAssured.*;
 
-import br.com.fbm.frametest.bo.UserBO;
-import br.com.fbm.frametest.converters.UserConverter;
+import br.com.fbm.frametest.bo.reqres.UserBO;
+import br.com.fbm.frametest.converters.reqres.UserConverter;
 import io.restassured.response.Response;
 
 /**

@@ -1,4 +1,4 @@
-package br.com.fbm.frametest.tests;
+package br.com.fbm.frametest.tests.viacep;
 
 import static org.junit.Assert.*;
 import static io.restassured.RestAssured.*;
@@ -9,8 +9,8 @@ import org.junit.BeforeClass;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import br.com.fbm.frametest.bo.CepBO;
-import br.com.fbm.frametest.requests.CepRequest;
+import br.com.fbm.frametest.bo.viacep.CepBO;
+import br.com.fbm.frametest.requests.viacep.CepRequest;
 import io.restassured.response.Response;
 
 
@@ -44,7 +44,7 @@ public class TestCep {
 	
 	@Test
 	@Ignore
-	public void test1() {
+	public void simpleTest() {
 		
 		Response resp = get("https://viacep.com.br/ws/01001000/json/");
 		
@@ -59,13 +59,14 @@ public class TestCep {
 	}
 	
 	@Test
-	public void dadoQueBuscoEnderecoQuandoRequisicaoBemSucedida() {
+	public void requestStatusCodeSuccess() {
 		assertTrue("Status Code 200", resp.getStatusCode() == 200);
 	}
 	
 	@Test
-	public void dadoQueBuscoEnderecoQuandoCepEncontrado() {
+	public void testAddressWasFound() {
 		assertTrue("Cep Encontrado", cepBO.getCep() != null);
 	}
+	
 	
 }

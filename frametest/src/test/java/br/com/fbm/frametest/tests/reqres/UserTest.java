@@ -7,7 +7,7 @@
  * language in any way or for any other purposes whatsoever without the prior
  * written consent of NTT DATA.
  */
-package br.com.fbm.frametest.tests;
+package br.com.fbm.frametest.tests.reqres;
 
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
@@ -19,11 +19,11 @@ import org.junit.Test;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
 
-import br.com.fbm.frametest.bo.ResponseGetUserBO;
-import br.com.fbm.frametest.bo.ResponseUsersBO;
-import br.com.fbm.frametest.bo.UserBO;
-import br.com.fbm.frametest.converters.UserConverter;
-import br.com.fbm.frametest.requests.UserRequest;
+import br.com.fbm.frametest.bo.reqres.ResponseGetUserBO;
+import br.com.fbm.frametest.bo.reqres.ResponseUsersBO;
+import br.com.fbm.frametest.bo.reqres.UserBO;
+import br.com.fbm.frametest.converters.reqres.UserConverter;
+import br.com.fbm.frametest.requests.reqres.UserRequest;
 import io.restassured.response.Response;
 
 /**
@@ -31,7 +31,7 @@ import io.restassured.response.Response;
  * to do tests for the user entity for the
  * reqres.in api
  *
- * @author NTT DATA - fmachado
+ * @author Fernando Bino Machado
  */
 public class UserTest {
 
@@ -76,22 +76,14 @@ public class UserTest {
 	}
 
 	@Test
-	public void requestCreateUser() {
+	public void testCreateUser() {
 		assertNotNull("Request Was Successfully", resp);
-	}
-	
-	@Test
-	public void userHasCreated() {
 		assertTrue("An User Id Exists", savedUser.getId() > 0 );
-	}
-	
-	@Test
-	public void nameNewUserWasFound() {
 		assertEquals("Same name user", newUser.getName(), savedUser.getName());
 	}
 	
 	@Test
-	public void getUserByIdHasRecord() {
+	public void testGetUserById() {
 		
 		final Response respGetUser = userRequest.getUser(savedUser.getId());
 		
@@ -119,7 +111,7 @@ public class UserTest {
 	}
 	
 	@Test
-	public void listUsersHasRecords() {
+	public void testeUserList() {
 	
 		final Response respListUsers = userRequest.listUsers();
 		

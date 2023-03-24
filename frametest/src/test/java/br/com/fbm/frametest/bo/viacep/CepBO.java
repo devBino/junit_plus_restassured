@@ -1,4 +1,4 @@
-package br.com.fbm.frametest.bo;
+package br.com.fbm.frametest.bo.viacep;
 
 import java.io.Serializable;
 
