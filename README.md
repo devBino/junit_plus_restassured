@@ -7,6 +7,7 @@
     <li><a href="#h2-project-rules">Project Execution Rules</a></li>
     <li><a href="#h2-project-backlog">Project Backlog</a></li>
     <li><a href="#h2-sprints">Sprints</a></li>
+    <li><a href="#h2-spi">Project SPI Indicator</a></li>
     <li><a href="#h2-releases">Releases</a></li>
 </ul>
 
@@ -34,7 +35,7 @@
 <h2 id="h2-project-rules">Project Execution Rules</h2>
 
 <p><b>1</b> - Project will be executed according to the initial project backlog defined (backlog will change if will be need).</p>
-<p><b>2</b> - Inittialy, all tasks will be distributed in 10 Sprints.</p>
+<p><b>2</b> - Inittialy, all tasks will be distributed in 12 Sprints.</p>
 <p><b>3</b> - Each Sprint will have duration 2 (two) days (Considering faster learning project scope and also considering I'm only stackholder)</p>
 <p><b>4</b> - Don't need dailys, just see for the sprint goal and try finish all itens inside the time box</p>
 <p><b>5</b> - All sprints when starts, will be need to define a goal considering a little backlog tasks.</p>
@@ -87,6 +88,8 @@
 <p><b> Sprint 8</b> Starts 06-04-2023 - Finish 07-04-2023</p>
 <p><b> Sprint 9</b> Starts 08-04-2023 - Finish 09-04-2023</p>
 <p><b> Sprint 10</b> Starts 10-04-2023 - Finish 11-04-2023</p>
+<p><b> Sprint 11</b> Starts 12-04-2023 - Finish 13-04-2023</p>
+<p><b> Sprint 12</b> Starts 14-04-2023 - Finish 15-04-2023</p>
 
 <a href="#h2-summary">Go Back Summary</a>
 
@@ -123,6 +126,52 @@ initial basic project structure.
 </ul>
 
 <a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-spi">Project SPI Indicator</h2>
+
+<p>
+    Considering that we have 12 Sprints during 24 days, and 20 initial backlog tasks, 
+    we needs to grow 0,8333 task(s) per day. So below we have a SPI indicator for each day:
+</p>
+
+<p><b>Day 1:</b> [Expected 0,8333 Done 3] SPI = 3,6 <b>✔</b></p>
+<p><b>Day 2:</b> [Expected 1,6667 Done ?] SPI = ?  </p>
+<p><b>Day 3:</b> [Expected 2,5000 Done ?] SPI = ?  </p>
+<p><b>Day 4:</b> [Expected 3,3333 Done ?] SPI = ?  </p>
+<p><b>Day 5:</b> [Expected 4,1667 Done ?] SPI = ?  </p>
+<p><b>Day 6:</b> [Expected 5,0000 Done ?] SPI = ?  </p>
+<p><b>Day 7:</b> [Expected 5,8333 Done ?] SPI = ?  </p>
+<p><b>Day 8:</b> [Expected 6,6667 Done ?] SPI = ?  </p>
+<p><b>Day 9:</b> [Expected 7,5000 Done ?] SPI = ?  </p>
+<p><b>Day 10:</b> [Expected 8,3333 Done ?] SPI = ?  </p>
+<p><b>Day 11:</b> [Expected 9,1667 Done ?] SPI = ?  </p>
+<p><b>Day 12:</b> [Expected 10,0000 Done ?] SPI = ?  </p>
+<p><b>Day 13:</b> [Expected 10,8333 Done ?] SPI = ?  </p>
+<p><b>Day 14:</b> [Expected 11,6667 Done ?] SPI = ?  </p>
+<p><b>Day 15:</b> [Expected 12,5000 Done ?] SPI = ?  </p>
+<p><b>Day 16:</b> [Expected 13,3333 Done ?] SPI = ?  </p>
+<p><b>Day 17:</b> [Expected 14,1667 Done ?] SPI = ?  </p>
+<p><b>Day 18:</b> [Expected 15,0000 Done ?] SPI = ?  </p>
+<p><b>Day 19:</b> [Expected 15,8333 Done ?] SPI = ?  </p>
+<p><b>Day 20:</b> [Expected 16,6667 Done ?] SPI = ?  </p>
+<p><b>Day 21:</b> [Expected 17,5000 Done ?] SPI = ?  </p>
+<p><b>Day 22:</b> [Expected 18,3333 Done ?] SPI = ?  </p>
+<p><b>Day 23:</b> [Expected 19,1667 Done ?] SPI = ?  </p>
+<p><b>Day 24:</b> [Expected 20,0000 Done ?] SPI = ?  </p>
+
+<br>
+
+![Gráfico de Linhas](https://raw.githubusercontent.com/devBino/file_repo/master/study_junit_plus_restassured/spi/grafico_spi.png)
+
+<br>
+
+<p>
+<b>OBS: </b> This SPI can have significative changes according to backlog project changes or project scope changes.
+</p>
+
 <a href="#h2-summary">Go Back Summary</a>
 
 <br>
