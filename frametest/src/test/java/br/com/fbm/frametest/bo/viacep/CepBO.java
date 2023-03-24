@@ -22,6 +22,7 @@ public class CepBO implements Serializable {
 	private String gia;
 	private String ddd;
 	private String siafi;
+	private boolean erro;
 	
 	public CepBO() {}
 
@@ -105,6 +106,13 @@ public class CepBO implements Serializable {
 		this.siafi = siafi;
 	}
 	
+	public void setErro(boolean erro) {
+		this.erro = erro;
+	}
+	
+	public boolean isErro() {
+		return erro;
+	}
 	
 	
 }

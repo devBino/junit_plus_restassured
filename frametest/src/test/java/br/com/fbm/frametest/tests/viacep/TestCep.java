@@ -7,9 +7,8 @@ import org.junit.Test;
 import org.junit.Ignore;
 import org.junit.BeforeClass;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import br.com.fbm.frametest.bo.viacep.CepBO;
+import br.com.fbm.frametest.converters.viacep.CepConverter;
 import br.com.fbm.frametest.requests.viacep.CepRequest;
 import io.restassured.response.Response;
 
@@ -32,13 +31,8 @@ public class TestCep {
 		
 		resp = cepRequest.getResponseCep("83601650");
 		
-		final ObjectMapper objMapper = new ObjectMapper();
-		
-		try {
-			cepBO = objMapper.readValue(resp.getBody().asString(), CepBO.class);
-		}catch(final Exception exception) {
-			cepBO = new CepBO();
-		}
+		cepBO = (CepBO) CepConverter
+				.stringToObjBO(resp.getBody().asString(), CepBO.class);
 		
 	}
 	
