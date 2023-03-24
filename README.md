@@ -8,7 +8,7 @@
     <li><a href="#h2-project-backlog">Project Backlog</a></li>
     <li><a href="#h2-sprints">Sprints</a></li>
     <li><a href="#h2-releases">Releases</a></li>
-<ul>
+</ul>
 
 <br>
 
