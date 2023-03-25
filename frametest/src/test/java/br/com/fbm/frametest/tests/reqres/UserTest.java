@@ -36,8 +36,8 @@ public class UserTest {
 		
 		newUser = new UserBO();
 		
-		newUser.setName("fernando bino");
-		newUser.setJob("software specialist");
+		newUser.setName("fernando bino machado");
+		newUser.setJob("try became a software specialist");
 		
 		userRequest = new UserRequest();
 		
