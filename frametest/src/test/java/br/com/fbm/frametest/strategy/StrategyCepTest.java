@@ -5,7 +5,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 import br.com.fbm.frametest.annotation.TestMap;
-import br.com.fbm.frametest.iface.FrameTestIface;
+import br.com.fbm.frametest.iface.FrameTest;
 import br.com.fbm.frametest.tests.viacep.TestCep;
 import br.com.fbm.frametest.constants.FrameTestConstants;
 
@@ -22,4 +22,4 @@ import br.com.fbm.frametest.constants.FrameTestConstants;
 	TestCep.class
 })
 @TestMap(hostNameApi = FrameTestConstants.VIA_CEP_API)
-public class StrategyCepTest implements FrameTestIface {}
+public class StrategyCepTest implements FrameTest {}
