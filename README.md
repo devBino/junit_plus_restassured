@@ -53,7 +53,7 @@
     <li>Task_1 - Create README.md file <b>✔</b></li>
     <li>Task 2 - Create initial project backlog (if will be need may be changed) <b>✔</b></li>
     <li>Task 3 - Plan and Document backlog in a list on this document <b>✔</b></li>
-    <li><b>☐</b> Task 4 - Generic Code Review to correct the project pattern (to consider test another APIs)</li>
+    <li><b>☐</b> Task 4 - Generic Code Review to correct the project pattern (to consider test multiple APIs)</li>
     <li><b>☐</b> Task 5 - Complete basic flow to the reqres api</li>
     <li><b>☐</b> Task 6 - Separete Tests for Categories</li>
     <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds)</li>
@@ -113,16 +113,23 @@ initial basic project structure.
     </li>
     <li><b> Task 2 - Created initial project backlog (if will be need may be changed) ✔</b> <br>
         <ul>
-            <li>Defined Requiries and created initial project backlog. </li>
+            <li>Defined Requiries and created initial project backlog.</li>
         </ul>
     </li>
     <li><b> Task 3 - Plan and Document backlog in a list on this document ✔</b> <br>
         <ul>
-            <li>Create Summary</li>
-            <li>Create Backlog, Rules, Sprints and Releases Links</li>
+            <li>Created Summary.</li>
+            <li>Created Backlog, Rules, Sprints and Releases Links.</li>
         </ul>
     </li>
-    <li><b>☐</b> Task 4 - Generic Code Review to correct the project pattern (to consider test another APIs)</li>
+    <li><b> Task 4 - Generic Code Review to correct the project pattern (to consider test multiple APIs) ✔</b> <br>
+        <ul>
+            <li>Refactoring initial package structure.</li>
+            <li>Created package division per host name api.</li>
+            <li>Created levels to Annotations, Converters, Factories, Ifaces, Strategies according to project requiries.</li>
+            <li>Create strategic level to use @RunWith, @SuiteClasses and customized @TestMap annotation to organize Apis Tests according to specific Host Name Api.</li>
+        </ul>
+    </li>
 </ul>
 
 <a href="#h2-sprints">Go Back List Sprints</a><br>
@@ -138,7 +145,7 @@ initial basic project structure.
 </p>
 
 <p><b>Day 1:</b> [Expected 0,8333 Done 3] SPI = 3,6 <b>✔</b></p>
-<p><b>Day 2:</b> [Expected 1,6667 Done 3] SPI = 1,8 <b>✔</b></p>
+<p><b>Day 2:</b> [Expected 1,6667 Done 4] SPI = 2,4 <b>✔</b></p>
 <p><b>Day 3:</b> [Expected 2,5000 Done ?] SPI = ?  </p>
 <p><b>Day 4:</b> [Expected 3,3333 Done ?] SPI = ?  </p>
 <p><b>Day 5:</b> [Expected 4,1667 Done ?] SPI = ?  </p>
