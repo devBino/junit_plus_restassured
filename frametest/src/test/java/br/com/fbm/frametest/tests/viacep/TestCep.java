@@ -29,7 +29,12 @@ public class TestCep {
 		
 		final CepRequest cepRequest = new CepRequest();
 		
-		resp = cepRequest.getResponseCep("83601650");
+		resp = cepRequest.getResponseCep("83603200");
+		
+		resp
+			.then()
+			.log()
+			.all();
 		
 		cepBO = (CepBO) CepConverter
 				.stringToObjBO(resp.getBody().asString(), CepBO.class);
