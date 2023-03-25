@@ -53,7 +53,7 @@
     <li>Task_1 - Create README.md file <b>✔</b></li>
     <li>Task 2 - Create initial project backlog (if will be need may be changed) <b>✔</b></li>
     <li>Task 3 - Plan and Document backlog in a list on this document <b>✔</b></li>
-    <li><b>☐</b> Task 4 - Generic Code Review to correct the project pattern (to consider test multiple APIs)</li>
+    <li>Task 4 - Generic Code Review to correct the project pattern (to consider multiple test APIs) <b>✔</b></li>
     <li><b>☐</b> Task 5 - Complete basic flow to the reqres api</li>
     <li><b>☐</b> Task 6 - Separete Tests for Categories</li>
     <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds)</li>
@@ -122,7 +122,7 @@ initial basic project structure.
             <li>Created Backlog, Rules, Sprints and Releases Links.</li>
         </ul>
     </li>
-    <li><b> Task 4 - Generic Code Review to correct the project pattern (to consider test multiple APIs) ✔</b> <br>
+    <li><b> Task 4 - Generic Code Review to correct the project pattern (to consider multiple test APIs) ✔</b> <br>
         <ul>
             <li>Refactoring initial package structure.</li>
             <li>Created package division per host name api.</li>
