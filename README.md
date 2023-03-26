@@ -54,7 +54,7 @@
     <li>Task 2 - Create initial project backlog (if will be need may be changed) <b>✔</b></li>
     <li>Task 3 - Plan and Document backlog in a list on this document <b>✔</b></li>
     <li>Task 4 - Generic Code Review to correct the project pattern (to consider multiple test APIs) <b>✔</b></li>
-    <li><b>☐</b> Task 5 - Complete basic flow to the reqres api</li>
+    <li>Task 5 - Complete basic flow to the reqres api <b>✔</b></li>
     <li><b>☐</b> Task 6 - Separete Tests for Categories</li>
     <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds)</li>
     <li><b>☐</b> Task 8 - Implement Tests Exceptions</li>
@@ -153,8 +153,14 @@ and also, organize tests in categories.
 </p>
 
 <ul>   
-    <li><b>☐</b> Task 5 - Complete basic flow to the reqres api</li>
-    <li><b>☐</b> Task 6 - Separete Tests for Categories</li>
+    <li> Task 5 - Complete basic flow to the reqres api <b>✔</b> <br>
+        <ul>
+            <li>Create abstract level for CRUD tests</li>
+            <li>Finish basic flow to GET, POST, PUT and DELETE Http Methods</li>
+            <li>Create a basic test to required fields</li>
+        </ul>
+    </li>
+    <li> Task 6 - Separete Tests for Categories <b>Unfinished Task</b></li>
 </ul>
 
 <a href="#h2-sprints">Go Back List Sprints</a><br>
@@ -172,7 +178,7 @@ and also, organize tests in categories.
 <p><b>Day 1:</b> [Expected 0,8333 Done 3] SPI = 3,6 <b>✔</b></p>
 <p><b>Day 2:</b> [Expected 1,6667 Done 4] SPI = 2,4 <b>✔</b></p>
 <p><b>Day 3:</b> [Expected 2,5000 Done 4] SPI = 1,6 <b>✔</b></p>
-<p><b>Day 4:</b> [Expected 3,3333 Done 4] SPI = 1,2 <b>✔</b></p>
+<p><b>Day 4:</b> [Expected 3,3333 Done 5] SPI = 1,5 <b>✔</b></p>
 <p><b>Day 5:</b> [Expected 4,1667 Done ?] SPI = ?  </p>
 <p><b>Day 6:</b> [Expected 5,0000 Done ?] SPI = ?  </p>
 <p><b>Day 7:</b> [Expected 5,8333 Done ?] SPI = ?  </p>
