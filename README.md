@@ -153,14 +153,14 @@ and also, organize tests in categories.
 </p>
 
 <ul>   
-    <li> Task 5 - Complete basic flow to the reqres api <b>✔</b> <br>
+    <li><b> Task 5 - Complete basic flow to the reqres api ✔</b> <br>
         <ul>
-            <li>Create abstract level for CRUD tests</li>
-            <li>Finish basic flow to GET, POST, PUT and DELETE Http Methods</li>
-            <li>Create a basic test to required fields</li>
+            <li>Create abstract level for CRUD tests.</li>
+            <li>Finish basic flow to GET, POST, PUT and DELETE Http Methods.</li>
+            <li>Create a basic test to required fields.</li>
         </ul>
     </li>
-    <li> Task 6 - Separete Tests for Categories <b>Unfinished Task</b></li>
+    <li><b>☐</b> Task 6 - Separete Tests for Categories <b>Unfinished Task</b></li>
 </ul>
 
 <a href="#h2-sprints">Go Back List Sprints</a><br>
