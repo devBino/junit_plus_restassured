@@ -10,7 +10,7 @@ import br.com.fbm.frametest.processor.FrameTestProcessor;
  *
  * @author Fernando Bino Machado
  */
-public class FrameTest {
+public class FrameTestInit {
 
 	public static void main(String[] args) {
 		

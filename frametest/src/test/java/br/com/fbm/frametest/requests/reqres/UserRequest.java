@@ -14,17 +14,26 @@ import io.restassured.response.Response;
  * @author Fernando Bino Machado
  */
 public class UserRequest {
+	
+	private String baseUriApi;
+	
+	/**
+	 * @param baseUriApi the baseUriApi to set
+	 */
+	public void setBaseUriApi(String baseUriApi) {
+		this.baseUriApi = baseUriApi;
+	}
 
 	public Response create(final UserBO pUserBO) {
 	
 		try {
 		
-			baseURI = "https://reqres.in/api";
+			baseURI = baseUriApi;
 			
 			return given()
 					.body(UserConverter.objBoToString(pUserBO))
 					.when()
-					.post("/users");
+					.post("/api/users");
 			
 		}catch(final Exception exception) {
 			System.out.println(exception.getMessage());
@@ -37,10 +46,10 @@ public class UserRequest {
 		
 		try {
 			
-			baseURI = "https://reqres.in/api/users/" + String.valueOf(pId);
+			baseURI = baseUriApi;
 			
 			return given()
-					.get();
+					.get( "/api/users/" + String.valueOf(pId) );
 			
 		}catch(final Exception exception) {
 			System.out.println(exception.getMessage());
@@ -53,10 +62,10 @@ public class UserRequest {
 		
 		try {
 		
-			baseURI = "https://reqres.in/api/users?page=2";
+			baseURI = baseUriApi;
 			
 			return given()
-					.get();
+					.get("/api/users?page=2");
 			
 		}catch(final Exception exception) {
 			System.out.println(exception.getMessage());
