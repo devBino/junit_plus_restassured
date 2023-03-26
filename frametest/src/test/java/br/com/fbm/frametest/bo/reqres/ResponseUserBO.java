@@ -10,14 +10,14 @@ import java.io.Serializable;
  *
  * @author Fernando Bino Machado
  */
-public class ResponseGetUserBO implements Serializable {
+public class ResponseUserBO implements Serializable {
 
 	private static final long serialVersionUID = 4799846180383383708L;
 	
 	private UserBO data;
 	private SuportBO support;
 	
-	public ResponseGetUserBO() {}
+	public ResponseUserBO() {}
 
 	public UserBO getData() {
 		return data;
