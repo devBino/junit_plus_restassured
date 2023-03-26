@@ -18,6 +18,7 @@ public class UserBO implements Serializable {
 	private String name;
 	private String job;
 	private String createdAt; 
+	private String updatedAt;
 	private String email;
 	private String first_name;
 	private String last_name;
@@ -56,7 +57,15 @@ public class UserBO implements Serializable {
 	public void setCreatedAt(String createdAt) {
 		this.createdAt = createdAt;
 	}
+	
+	public String getUpdatedAt() {
+		return updatedAt;
+	}
 
+	public void setUpdatedAt(String updatedAt) {
+		this.updatedAt = updatedAt;
+	}
+	
 	public String getEmail() {
 		return email;
 	}

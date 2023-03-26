@@ -42,6 +42,24 @@ public class UserRequest {
 		
 	}
 	
+	public Response update(final UserBO pUserBO) {
+		
+		try {
+			
+			baseURI = baseUriApi;
+			
+			return given()
+					.body(UserConverter.objBoToString(pUserBO))
+					.when()
+					.put("/api/users/" + String.valueOf( pUserBO.getId() ) );
+			
+		}catch(final Exception exception) {
+			System.out.println(exception.getMessage());
+			return null;
+		}
+		
+	}
+	
 	public Response getUser(final int pId) {
 		
 		try {
@@ -65,7 +83,21 @@ public class UserRequest {
 			baseURI = baseUriApi;
 			
 			return given()
-					.get("/api/users?page=2");
+					.get("/api/users");
+			
+		}catch(final Exception exception) {
+			System.out.println(exception.getMessage());
+			return null;
+		}
+		
+	}
+	
+	public Response delete(final int pId) {
+		
+		try {
+			
+			return when()
+					.delete("/api/users/" + String.valueOf(pId));
 			
 		}catch(final Exception exception) {
 			System.out.println(exception.getMessage());
