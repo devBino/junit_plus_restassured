@@ -163,6 +163,11 @@ and also, organize tests in categories.
     <li><b>☐</b> Task 6 - Separete Tests for Categories <b>Unfinished Task</b></li>
 </ul>
 
+<br>
+<p><b>Report: </b>Was finished 1 task, with a SPI indicatior value 1,5,. Two of Three goals was finished in the Task 5, 
+[1] - Finish basic test flow, and test required fields.</p>
+<br>
+
 <a href="#h2-sprints">Go Back List Sprints</a><br>
 <a href="#h2-summary">Go Back Summary</a>
 
@@ -179,7 +184,7 @@ and also, organize tests in categories.
 <p><b>Day 2:</b> [Expected 1,6667 Done 4] SPI = 2,4 <b>✔</b></p>
 <p><b>Day 3:</b> [Expected 2,5000 Done 4] SPI = 1,6 <b>✔</b></p>
 <p><b>Day 4:</b> [Expected 3,3333 Done 5] SPI = 1,5 <b>✔</b></p>
-<p><b>Day 5:</b> [Expected 4,1667 Done ?] SPI = ?  </p>
+<p><b>Day 5:</b> [Expected 4,1667 Done 5] SPI = 1,2 <b>✔</b></p>
 <p><b>Day 6:</b> [Expected 5,0000 Done ?] SPI = ?  </p>
 <p><b>Day 7:</b> [Expected 5,8333 Done ?] SPI = ?  </p>
 <p><b>Day 8:</b> [Expected 6,6667 Done ?] SPI = ?  </p>
