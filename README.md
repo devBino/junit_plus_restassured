@@ -178,8 +178,8 @@ and also, organize tests in categories.
 <br>
 
 <p>
-<b>Sprint Goal: </b> Implement a new Api Test that work with Rules and Exceptions.
-organize tests in categories.
+<b>Sprint Goal: </b> Implement a new Api Test that works with Rules and Exceptions.
+Organize tests in categories.
 </p>
 
 <ul>   
