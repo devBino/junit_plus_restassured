@@ -79,8 +79,8 @@
 <h2 id="h2-sprints">Sprints</h2>
 
 <p><b><a href="#h2-sprint1"> Sprint 1</a></b> Starts 23-03-2023 - Finish 24-03-2023  <b>✔</b></p>
-<p><b><a href="#h2-sprint2"> Sprint 2</a></b> Starts 25-03-2023 - Finish 26-03-2023 <b>[Current]</b></p>
-<p><b> Sprint 3</b> Starts 27-03-2023 - Finish 28-03-2023</p>
+<p><b><a href="#h2-sprint2"> Sprint 2</a></b> Starts 25-03-2023 - Finish 26-03-2023 <b>✔</b></p>
+<p><b><a href="#h2-sprint3"> Sprint 3</b> Starts 27-03-2023 - Finish 28-03-2023 <b>[Current]</b></p>
 <p><b> Sprint 4</b> Starts 29-03-2023 - Finish 30-03-2023</p>
 <p><b> Sprint 5</b> Starts 31-03-2023 - Finish 01-04-2023</p>
 <p><b> Sprint 6</b> Starts 02-04-2023 - Finish 03-04-2023</p>
@@ -167,6 +167,26 @@ and also, organize tests in categories.
 <p><b>Report: </b>Was finished 1 task, with a SPI indicatior value 1,5,. Two of Three goals was finished in the Task 5, 
 [1] - Finish basic test flow, and test required fields.</p>
 <br>
+
+<a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-sprint3">SPRINT 3</h2><br>
+
+<br>
+
+<p>
+<b>Sprint Goal: </b> Implement a new Api Test that work with Rules and Exceptions.
+organize tests in categories.
+</p>
+
+<ul>   
+    <li><b>☐</b> Task 6 - Separete Tests for Categories</li>
+    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds)</li>
+    <li><b>☐</b> Task 8 - Implement Tests Exceptions</li>
+</ul>
 
 <a href="#h2-sprints">Go Back List Sprints</a><br>
 <a href="#h2-summary">Go Back Summary</a>
