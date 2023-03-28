@@ -205,7 +205,7 @@ Organize tests in categories.
 <p><b>Day 3:</b> [Expected 2,5000 Done 4] SPI = 1,6 <b>✔</b></p>
 <p><b>Day 4:</b> [Expected 3,3333 Done 5] SPI = 1,5 <b>✔</b></p>
 <p><b>Day 5:</b> [Expected 4,1667 Done 5] SPI = 1,2 <b>✔</b></p>
-<p><b>Day 6:</b> [Expected 5,0000 Done ?] SPI = ?  </p>
+<p><b>Day 6:</b> [Expected 5,0000 Done 5] SPI = 1 <b>✔</b></p>
 <p><b>Day 7:</b> [Expected 5,8333 Done ?] SPI = ?  </p>
 <p><b>Day 8:</b> [Expected 6,6667 Done ?] SPI = ?  </p>
 <p><b>Day 9:</b> [Expected 7,5000 Done ?] SPI = ?  </p>
