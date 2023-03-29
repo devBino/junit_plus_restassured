@@ -4,11 +4,15 @@ import static org.junit.Assert.*;
 import static io.restassured.RestAssured.*;
 
 import org.junit.Test;
-import org.junit.Ignore;
+import org.junit.experimental.categories.Category;
+
 import org.junit.BeforeClass;
 
 import br.com.fbm.frametest.bo.viacep.CepBO;
-import br.com.fbm.frametest.converters.viacep.CepConverter;
+import br.com.fbm.frametest.converters.GenericConverter;
+import br.com.fbm.frametest.exception.RegistersNotReturnedException;
+import br.com.fbm.frametest.iface.TestListCategory;
+import br.com.fbm.frametest.iface.TestRegistersNotReturnedExceptionCategory;
 import br.com.fbm.frametest.requests.viacep.CepRequest;
 import io.restassured.response.Response;
 
@@ -31,19 +35,14 @@ public class TestCep {
 		
 		resp = cepRequest.getResponseCep("83603200");
 		
-		resp
-			.then()
-			.log()
-			.all();
-		
-		cepBO = (CepBO) CepConverter
+		cepBO = (CepBO) GenericConverter
 				.stringToObjBO(resp.getBody().asString(), CepBO.class);
 		
 	}
 	
 	@Test
-	@Ignore
-	public void simpleTest() {
+	@Category(TestListCategory.class)
+	public void testGetFakeCep() {
 		
 		Response resp = get("https://viacep.com.br/ws/01001000/json/");
 		
@@ -54,6 +53,21 @@ public class TestCep {
 		System.out.println(resp.getHeader("content-type"));
 		
 		assertEquals("Status Code 200", resp.getStatusCode(), 200);
+		
+	}
+	
+	@Test(expected = RegistersNotReturnedException.class)
+	@Category(TestRegistersNotReturnedExceptionCategory.class)
+	public void testFakeCepNotReturned() throws RegistersNotReturnedException {
+		
+		Response resp = get("https://viacep.com.br/ws/83601341/json/");
+		
+		final CepBO localCepBO = (CepBO) GenericConverter
+				.stringToObjBO(resp.getBody().asString(), CepBO.class);
+		
+		if( localCepBO.getCep() == null ) {
+			throw new RegistersNotReturnedException("A Cep was not returned from Api Via Cep.");
+		}
 		
 	}
 	

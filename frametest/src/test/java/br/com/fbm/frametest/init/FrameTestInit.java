@@ -10,13 +10,13 @@ import br.com.fbm.frametest.processor.FrameTestProcessor;
  *
  * @author Fernando Bino Machado
  */
-public class FrameTest {
+public class FrameTestInit {
 
 	public static void main(String[] args) {
 		
 		final String hostName = (args.length > 0)
 				? args[0]
-				: FrameTestConstants.REQ_RES_API;
+				: FrameTestConstants.CATEGORY_NOT_RETURNED_REGISTERS;
 				
 		FrameTestProcessor.processImplementationTest(hostName);
 		

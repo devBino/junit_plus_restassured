@@ -13,6 +13,13 @@ public class FrameTestConstants {
 	 */
 	public static final String VIA_CEP_API = "viacep";
 	public static final String REQ_RES_API = "reqres";
+	public static final String FIPE_API = "parallelum";
+	
+	/**
+	 * Constants for Categorized Tests
+	 */
+	public static final String CATEGORY_LIST_TESTS = "category_list_tests";
+	public static final String CATEGORY_NOT_RETURNED_REGISTERS = "category_not_returned_registers";
 	
 	/**
 	 * Constants to strategies

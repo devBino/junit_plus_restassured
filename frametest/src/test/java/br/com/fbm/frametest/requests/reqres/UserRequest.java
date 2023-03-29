@@ -3,7 +3,7 @@ package br.com.fbm.frametest.requests.reqres;
 import static io.restassured.RestAssured.*;
 
 import br.com.fbm.frametest.bo.reqres.UserBO;
-import br.com.fbm.frametest.converters.reqres.UserConverter;
+import br.com.fbm.frametest.converters.GenericConverter;
 import io.restassured.response.Response;
 
 /**
@@ -14,17 +14,44 @@ import io.restassured.response.Response;
  * @author Fernando Bino Machado
  */
 public class UserRequest {
+	
+	private String baseUriApi;
+	
+	/**
+	 * @param baseUriApi the baseUriApi to set
+	 */
+	public void setBaseUriApi(String baseUriApi) {
+		this.baseUriApi = baseUriApi;
+	}
 
 	public Response create(final UserBO pUserBO) {
 	
 		try {
 		
-			baseURI = "https://reqres.in/api";
+			baseURI = baseUriApi;
 			
 			return given()
-					.body(UserConverter.objBoToString(pUserBO))
+					.body(GenericConverter.objBoToString(pUserBO))
 					.when()
-					.post("/users");
+					.post("/api/users");
+			
+		}catch(final Exception exception) {
+			System.out.println(exception.getMessage());
+			return null;
+		}
+		
+	}
+	
+	public Response update(final UserBO pUserBO) {
+		
+		try {
+			
+			baseURI = baseUriApi;
+			
+			return given()
+					.body(GenericConverter.objBoToString(pUserBO))
+					.when()
+					.put("/api/users/" + String.valueOf( pUserBO.getId() ) );
 			
 		}catch(final Exception exception) {
 			System.out.println(exception.getMessage());
@@ -37,10 +64,10 @@ public class UserRequest {
 		
 		try {
 			
-			baseURI = "https://reqres.in/api/users/" + String.valueOf(pId);
+			baseURI = baseUriApi;
 			
 			return given()
-					.get();
+					.get( "/api/users/" + String.valueOf(pId) );
 			
 		}catch(final Exception exception) {
 			System.out.println(exception.getMessage());
@@ -53,10 +80,24 @@ public class UserRequest {
 		
 		try {
 		
-			baseURI = "https://reqres.in/api/users?page=2";
+			baseURI = baseUriApi;
 			
 			return given()
-					.get();
+					.get("/api/users");
+			
+		}catch(final Exception exception) {
+			System.out.println(exception.getMessage());
+			return null;
+		}
+		
+	}
+	
+	public Response delete(final int pId) {
+		
+		try {
+			
+			return when()
+					.delete("/api/users/" + String.valueOf(pId));
 			
 		}catch(final Exception exception) {
 			System.out.println(exception.getMessage());

@@ -6,7 +6,7 @@ import static br.com.fbm.frametest.constants.FrameTestConstants.PACKAGE_FRAME_TE
 import java.io.File;
 
 import br.com.fbm.frametest.annotation.TestMap;
-import br.com.fbm.frametest.iface.FrameTestIface;
+import br.com.fbm.frametest.iface.FrameTest;
 
 /**
  * {@code FrameTestFactory} Try find {@code FrameTestIface}
@@ -23,9 +23,9 @@ public class FrameTestFactory {
 	 * @param pHostName
 	 * @return
 	 */
-	public static FrameTestIface getFrameTestByHostApiName(final String pHostName) {
+	public static FrameTest getFrameTestByHostApiName(final String pHostName) {
 		
-		FrameTestIface implementedTest = null;
+		FrameTest implementedTest = null;
 		
 		try {
 			
@@ -49,7 +49,7 @@ public class FrameTestFactory {
 			
 				//if an implementation was found
 				if( mapAnnotation.hostNameApi().equals(pHostName) ) {
-					implementedTest = (FrameTestIface) implFrameTest.getDeclaredConstructor().newInstance();
+					implementedTest = (FrameTest) implFrameTest.getDeclaredConstructor().newInstance();
 					break;
 				}
 				
