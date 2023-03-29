@@ -5,8 +5,8 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 import br.com.fbm.frametest.annotation.TestMap;
-import br.com.fbm.frametest.iface.FrameTestIface;
-import br.com.fbm.frametest.tests.reqres.UserTest;
+import br.com.fbm.frametest.iface.FrameTest;
+import br.com.fbm.frametest.tests.reqres.UserBasicFlowTest;
 import br.com.fbm.frametest.constants.FrameTestConstants;
 
 /**
@@ -19,7 +19,7 @@ import br.com.fbm.frametest.constants.FrameTestConstants;
  */
 @RunWith(Suite.class)
 @SuiteClasses({
-	UserTest.class
+	UserBasicFlowTest.class
 })
 @TestMap(hostNameApi = FrameTestConstants.REQ_RES_API)
-public class StrategyReqResTest implements FrameTestIface {}
+public class StrategyReqResTest implements FrameTest {}

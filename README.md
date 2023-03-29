@@ -54,10 +54,10 @@
     <li>Task 2 - Create initial project backlog (if will be need may be changed) <b>✔</b></li>
     <li>Task 3 - Plan and Document backlog in a list on this document <b>✔</b></li>
     <li>Task 4 - Generic Code Review to correct the project pattern (to consider multiple test APIs) <b>✔</b></li>
-    <li><b>☐</b> Task 5 - Complete basic flow to the reqres api</li>
-    <li><b>☐</b> Task 6 - Separete Tests for Categories</li>
+    <li>Task 5 - Complete basic flow to the reqres api <b>✔</b></li>
+    <li>Task 6 - Separete Tests for Categories <b>✔</b></li>
     <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds)</li>
-    <li><b>☐</b> Task 8 - Implement Tests Exceptions</li>
+    <li>Task 8 - Implement Tests Exceptions <b>✔</b></li>
     <li><b>☐</b> Task 9 - Create Parameterized Class Test to run multiple tests</li>
     <li><b>☐</b> Task 10 - Implement runner functionality</li>
     <li><b>☐</b> Task 11 - Implement report functionality</li>
@@ -78,9 +78,9 @@
 
 <h2 id="h2-sprints">Sprints</h2>
 
-<p><b><a href="#h2-sprint1"> Sprint 1</a></b> Starts 23-03-2023 - Finish 24-03-2023 <b>[Current]</b></p>
-<p><b> Sprint 2</b> Starts 25-03-2023 - Finish 26-03-2023</p>
-<p><b> Sprint 3</b> Starts 27-03-2023 - Finish 28-03-2023</p>
+<p><b><a href="#h2-sprint1"> Sprint 1</a></b> Starts 23-03-2023 - Finish 24-03-2023  <b>✔</b></p>
+<p><b><a href="#h2-sprint2"> Sprint 2</a></b> Starts 25-03-2023 - Finish 26-03-2023 <b>✔</b></p>
+<p><b><a href="#h2-sprint3"> Sprint 3</b> Starts 27-03-2023 - Finish 28-03-2023 <b>[Current]</b></p>
 <p><b> Sprint 4</b> Starts 29-03-2023 - Finish 30-03-2023</p>
 <p><b> Sprint 5</b> Starts 31-03-2023 - Finish 01-04-2023</p>
 <p><b> Sprint 6</b> Starts 02-04-2023 - Finish 03-04-2023</p>
@@ -132,6 +132,73 @@ initial basic project structure.
     </li>
 </ul>
 
+<br>
+<p><b>Report: </b>Was finished 4 tasks, with a SPI indicatior value 2,4, also the sprint goal was finished. [A] - Work to finish initial basic documentation at the Tasks 1 and 2. [B] - plan backlog at the Task 3 and finally [C] - work to finish 
+initial basic project structure at the Task 4.</p>
+<br>
+
+<a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-sprint2">SPRINT 2</h2><br>
+
+<br>
+
+<p>
+<b>Sprint Goal: </b> Finish basic flow to the GET, POST , PUT and DELETE and 
+build tests coverage require fields, explore more JUnit and RestAssured basic cases
+and also, organize tests in categories.
+</p>
+
+<ul>   
+    <li><b> Task 5 - Complete basic flow to the reqres api ✔</b> <br>
+        <ul>
+            <li>Create abstract level for CRUD tests.</li>
+            <li>Finish basic flow to GET, POST, PUT and DELETE Http Methods.</li>
+            <li>Create a basic test to required fields.</li>
+        </ul>
+    </li>
+    <li><b>☐</b> Task 6 - Separete Tests for Categories <b>Unfinished Task</b></li>
+</ul>
+
+<br>
+<p><b>Report: </b>Was finished 1 task, with a SPI indicatior value 1,5,. Two of Three goals was finished in the Task 5, 
+[1] - Finish basic test flow, and test required fields.</p>
+<br>
+
+<a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-sprint3">SPRINT 3</h2><br>
+
+<br>
+
+<p>
+<b>Sprint Goal: </b> Implement a new Api Test that works with Rules and Exceptions.
+Organize tests in categories.
+</p>
+
+<ul>   
+    <li><b> Task 6 - Separete Tests for Categories ✔</b> <br>
+        <ul>
+            <li>Started a new example Api Tests.</li>
+            <li>Refactoring Converters.</li>
+            <li>Created some caregoryzed tests examples.</li>
+        </ul>
+    </li>
+    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) <b>Unfinished Task</b></li>
+    <li><b> Task 8 - Implement Tests Exceptions ✔</b> <br>
+        <ul>
+            <li>Created Category Registers Not Returned Exception.</li>
+            <li>Created some caregoryzed exceptions tests for strategy RegistersNotReturnedExceptionTest.</li>
+        </ul>
+    </li>
+</ul>
+
 <a href="#h2-sprints">Go Back List Sprints</a><br>
 <a href="#h2-summary">Go Back Summary</a>
 
@@ -146,10 +213,10 @@ initial basic project structure.
 
 <p><b>Day 1:</b> [Expected 0,8333 Done 3] SPI = 3,6 <b>✔</b></p>
 <p><b>Day 2:</b> [Expected 1,6667 Done 4] SPI = 2,4 <b>✔</b></p>
-<p><b>Day 3:</b> [Expected 2,5000 Done ?] SPI = ?  </p>
-<p><b>Day 4:</b> [Expected 3,3333 Done ?] SPI = ?  </p>
-<p><b>Day 5:</b> [Expected 4,1667 Done ?] SPI = ?  </p>
-<p><b>Day 6:</b> [Expected 5,0000 Done ?] SPI = ?  </p>
+<p><b>Day 3:</b> [Expected 2,5000 Done 4] SPI = 1,6 <b>✔</b></p>
+<p><b>Day 4:</b> [Expected 3,3333 Done 5] SPI = 1,5 <b>✔</b></p>
+<p><b>Day 5:</b> [Expected 4,1667 Done 5] SPI = 1,2 <b>✔</b></p>
+<p><b>Day 6:</b> [Expected 5,0000 Done 7] SPI = 1,4 <b>✔</b></p>
 <p><b>Day 7:</b> [Expected 5,8333 Done ?] SPI = ?  </p>
 <p><b>Day 8:</b> [Expected 6,6667 Done ?] SPI = ?  </p>
 <p><b>Day 9:</b> [Expected 7,5000 Done ?] SPI = ?  </p>

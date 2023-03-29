@@ -11,4 +11,4 @@ package br.com.fbm.frametest.iface;
  *
  * @author Fernando Bino Machado
  */
-public interface FrameTestIface {}
+public interface FrameTest {}

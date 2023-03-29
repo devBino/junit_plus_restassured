@@ -3,7 +3,7 @@ package br.com.fbm.frametest.processor;
 import org.junit.runner.JUnitCore;
 import org.junit.internal.TextListener;
 
-import br.com.fbm.frametest.iface.FrameTestIface;
+import br.com.fbm.frametest.iface.FrameTest;
 import br.com.fbm.frametest.factories.FrameTestFactory;
 
 /**
@@ -16,7 +16,7 @@ public class FrameTestProcessor {
 
 	public static void processImplementationTest(final String pHostApiName) {
 		
-		final FrameTestIface frameTest = FrameTestFactory.getFrameTestByHostApiName(pHostApiName);
+		final FrameTest frameTest = FrameTestFactory.getFrameTestByHostApiName(pHostApiName);
 
 		if( frameTest == null ) {
 			return;
