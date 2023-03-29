@@ -4,6 +4,8 @@ import static org.junit.Assert.*;
 
 import java.util.Optional;
 
+import org.junit.experimental.categories.Category;
+
 import io.restassured.response.Response;
 
 import br.com.fbm.frametest.abstracts.CrudTestAbstract;
@@ -12,7 +14,8 @@ import br.com.fbm.frametest.bo.reqres.UserBO;
 import br.com.fbm.frametest.bo.reqres.ResponseUserBO;
 import br.com.fbm.frametest.bo.reqres.ResponseUsersBO;
 
-import br.com.fbm.frametest.converters.reqres.UserConverter;
+import br.com.fbm.frametest.converters.GenericConverter;
+import br.com.fbm.frametest.iface.TestListCategory;
 import br.com.fbm.frametest.requests.reqres.UserRequest;
 
 /**
@@ -71,7 +74,7 @@ public class UserBasicFlowTest
 		}
 		
 		//convert response to next tests
-		final UserBO respUserBO = (UserBO) UserConverter
+		final UserBO respUserBO = (UserBO) GenericConverter
 				.stringToObjBO(response.getBody().asString(), UserBO.class);
 		
 		assertTrue("Request withou required params can't allowed create new user.", 
@@ -101,7 +104,7 @@ public class UserBasicFlowTest
 			.statusCode(201);
 
 		//convert response in an UserBO to next tests
-		savedUser = (UserBO) UserConverter.stringToObjBO(resp.getBody().asString(), UserBO.class);
+		savedUser = (UserBO) GenericConverter.stringToObjBO(resp.getBody().asString(), UserBO.class);
 		
 		//change user id to complete flow because reqres 
 		//is not returning corret values for it's methods
@@ -136,7 +139,7 @@ public class UserBasicFlowTest
 			.statusCode(200);
 		
 		//convert response to next tests
-		final ResponseUserBO respUserBO = (ResponseUserBO) UserConverter
+		final ResponseUserBO respUserBO = (ResponseUserBO) GenericConverter
 				.stringToObjBO(respGetUser.getBody().asString(), ResponseUserBO.class);
 
 		//we need to change temporaly all fields
@@ -178,7 +181,7 @@ public class UserBasicFlowTest
 			.statusCode(200);
 			
 		//convert response to next tests
-		final ResponseUsersBO respUsersBO = (ResponseUsersBO) UserConverter
+		final ResponseUsersBO respUsersBO = (ResponseUsersBO) GenericConverter
 				.stringToObjBO(respListUsers.getBody().asString(), ResponseUsersBO.class);
 	
 		assertNotNull("Response was converted to the BO object", respUsersBO);
@@ -220,7 +223,7 @@ public class UserBasicFlowTest
 			.statusCode(200);
 		
 		//convert response to next tests
-		final UserBO userBO = (UserBO) UserConverter
+		final UserBO userBO = (UserBO) GenericConverter
 				.stringToObjBO(respUpdateUser.getBody().asString(), UserBO.class);
 		
 		//for this moment we can't do tests here
