@@ -80,8 +80,8 @@
 
 <p><b><a href="#h2-sprint1"> Sprint 1</a></b> Starts 23-03-2023 - Finish 24-03-2023  <b>✔</b></p>
 <p><b><a href="#h2-sprint2"> Sprint 2</a></b> Starts 25-03-2023 - Finish 26-03-2023 <b>✔</b></p>
-<p><b><a href="#h2-sprint3"> Sprint 3</b> Starts 27-03-2023 - Finish 28-03-2023 <b>[Current]</b></p>
-<p><b> Sprint 4</b> Starts 29-03-2023 - Finish 30-03-2023</p>
+<p><b><a href="#h2-sprint3"> Sprint 3</b> Starts 27-03-2023 - Finish 28-03-2023 <b>✔</b></p>
+<p><b><a href="#h2-sprint4"> Sprint 4</b> Starts 29-03-2023 - Finish 30-03-2023 <b>[Current]</b></p>
 <p><b> Sprint 5</b> Starts 31-03-2023 - Finish 01-04-2023</p>
 <p><b> Sprint 6</b> Starts 02-04-2023 - Finish 03-04-2023</p>
 <p><b> Sprint 7</b> Starts 04-04-2023 - Finish 05-04-2023</p>
@@ -199,6 +199,28 @@ Organize tests in categories.
     </li>
 </ul>
 
+<br>
+<p><b>Report: </b>Was finished 2 tasks, with a SPI indicatior value 1,4. About sprint goal, a new Test Api was implemented and some tests 
+was categoryzed by Interfaces and Exceptions. Was not finish a goal, works with Rules, in the next Sprint it will be solved.</p>
+<br>
+
+<a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-sprint4">SPRINT 4</h2><br>
+
+<br>
+
+<p>
+<b>Sprint Goal: </b> Implemente Tests Rules on the new Test Api implemented at the last sprint.
+</p>
+
+<ul>   
+    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) </li>
+</ul>
+
 <a href="#h2-sprints">Go Back List Sprints</a><br>
 <a href="#h2-summary">Go Back Summary</a>
 
@@ -217,7 +239,7 @@ Organize tests in categories.
 <p><b>Day 4:</b> [Expected 3,3333 Done 5] SPI = 1,5 <b>✔</b></p>
 <p><b>Day 5:</b> [Expected 4,1667 Done 5] SPI = 1,2 <b>✔</b></p>
 <p><b>Day 6:</b> [Expected 5,0000 Done 7] SPI = 1,4 <b>✔</b></p>
-<p><b>Day 7:</b> [Expected 5,8333 Done ?] SPI = ?  </p>
+<p><b>Day 7:</b> [Expected 5,8333 Done 7] SPI = 1,2 <b>✔</b></p>
 <p><b>Day 8:</b> [Expected 6,6667 Done ?] SPI = ?  </p>
 <p><b>Day 9:</b> [Expected 7,5000 Done ?] SPI = ?  </p>
 <p><b>Day 10:</b> [Expected 8,3333 Done ?] SPI = ?  </p>
