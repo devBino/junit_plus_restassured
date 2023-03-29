@@ -27,4 +27,4 @@ import br.com.fbm.frametest.constants.FrameTestConstants;
 	FipeBrandTestApi.class
 })
 @TestMap(hostNameApi = FrameTestConstants.CATEGORY_LIST_TESTS)
-public class StrategyCategorieListTest implements FrameTest {}
+public class StrategyCategoryListTest implements FrameTest {}
