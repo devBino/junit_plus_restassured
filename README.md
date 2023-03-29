@@ -194,7 +194,7 @@ Organize tests in categories.
     <li><b> Task 8 - Implement Tests Exceptions ✔</b> <br>
         <ul>
             <li>Created Category Registers Not Returned Exception.</li>
-            <li>Created some caregoryzed exceptions tests for strategy RegistersNotReturnedExceptionTest</li>
+            <li>Created some caregoryzed exceptions tests for strategy RegistersNotReturnedExceptionTest.</li>
         </ul>
     </li>
 </ul>
