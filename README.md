@@ -55,7 +55,7 @@
     <li>Task 3 - Plan and Document backlog in a list on this document <b>✔</b></li>
     <li>Task 4 - Generic Code Review to correct the project pattern (to consider multiple test APIs) <b>✔</b></li>
     <li>Task 5 - Complete basic flow to the reqres api <b>✔</b></li>
-    <li><b>☐</b> Task 6 - Separete Tests for Categories</li>
+    <li>Task 6 - Separete Tests for Categories <b>✔</b></li>
     <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds)</li>
     <li><b>☐</b> Task 8 - Implement Tests Exceptions</li>
     <li><b>☐</b> Task 9 - Create Parameterized Class Test to run multiple tests</li>
@@ -183,7 +183,13 @@ Organize tests in categories.
 </p>
 
 <ul>   
-    <li><b>☐</b> Task 6 - Separete Tests for Categories</li>
+    <li><b> Task 6 - Separete Tests for Categories ✔</b> <br>
+        <ul>
+            <li>Started a new example Api Tests.</li>
+            <li>Refactoring Converters.</li>
+            <li>Created some caregoryzed tests examples.</li>
+        </ul>
+    </li>
     <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds)</li>
     <li><b>☐</b> Task 8 - Implement Tests Exceptions</li>
 </ul>
@@ -205,7 +211,7 @@ Organize tests in categories.
 <p><b>Day 3:</b> [Expected 2,5000 Done 4] SPI = 1,6 <b>✔</b></p>
 <p><b>Day 4:</b> [Expected 3,3333 Done 5] SPI = 1,5 <b>✔</b></p>
 <p><b>Day 5:</b> [Expected 4,1667 Done 5] SPI = 1,2 <b>✔</b></p>
-<p><b>Day 6:</b> [Expected 5,0000 Done 5] SPI = 1 <b>✔</b></p>
+<p><b>Day 6:</b> [Expected 5,0000 Done 5] SPI = 1,2 <b>✔</b></p>
 <p><b>Day 7:</b> [Expected 5,8333 Done ?] SPI = ?  </p>
 <p><b>Day 8:</b> [Expected 6,6667 Done ?] SPI = ?  </p>
 <p><b>Day 9:</b> [Expected 7,5000 Done ?] SPI = ?  </p>

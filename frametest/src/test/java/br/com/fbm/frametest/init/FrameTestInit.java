@@ -16,7 +16,7 @@ public class FrameTestInit {
 		
 		final String hostName = (args.length > 0)
 				? args[0]
-				: FrameTestConstants.REQ_RES_API;
+				: FrameTestConstants.CATEGORY_LIST_TESTS;
 				
 		FrameTestProcessor.processImplementationTest(hostName);
 		

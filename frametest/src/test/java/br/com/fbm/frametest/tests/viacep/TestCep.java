@@ -4,11 +4,13 @@ import static org.junit.Assert.*;
 import static io.restassured.RestAssured.*;
 
 import org.junit.Test;
-import org.junit.Ignore;
+import org.junit.experimental.categories.Category;
+
 import org.junit.BeforeClass;
 
 import br.com.fbm.frametest.bo.viacep.CepBO;
-import br.com.fbm.frametest.converters.viacep.CepConverter;
+import br.com.fbm.frametest.converters.GenericConverter;
+import br.com.fbm.frametest.iface.TestListCategory;
 import br.com.fbm.frametest.requests.viacep.CepRequest;
 import io.restassured.response.Response;
 
@@ -36,14 +38,14 @@ public class TestCep {
 			.log()
 			.all();
 		
-		cepBO = (CepBO) CepConverter
+		cepBO = (CepBO) GenericConverter
 				.stringToObjBO(resp.getBody().asString(), CepBO.class);
 		
 	}
 	
 	@Test
-	@Ignore
-	public void simpleTest() {
+	@Category(TestListCategory.class)
+	public void simpleTestGetFakeCep() {
 		
 		Response resp = get("https://viacep.com.br/ws/01001000/json/");
 		
