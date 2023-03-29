@@ -57,7 +57,7 @@
     <li>Task 5 - Complete basic flow to the reqres api <b>✔</b></li>
     <li>Task 6 - Separete Tests for Categories <b>✔</b></li>
     <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds)</li>
-    <li><b>☐</b> Task 8 - Implement Tests Exceptions</li>
+    <li>Task 8 - Implement Tests Exceptions <b>✔</b></li>
     <li><b>☐</b> Task 9 - Create Parameterized Class Test to run multiple tests</li>
     <li><b>☐</b> Task 10 - Implement runner functionality</li>
     <li><b>☐</b> Task 11 - Implement report functionality</li>
@@ -190,8 +190,13 @@ Organize tests in categories.
             <li>Created some caregoryzed tests examples.</li>
         </ul>
     </li>
-    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds)</li>
-    <li><b>☐</b> Task 8 - Implement Tests Exceptions</li>
+    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) <b>Unfinished Task</b></li>
+    <li><b> Task 8 - Implement Tests Exceptions ✔</b> <br>
+        <ul>
+            <li>Created Category Registers Not Returned Exception.</li>
+            <li>Created some caregoryzed exceptions tests for strategy RegistersNotReturnedExceptionTest</li>
+        </ul>
+    </li>
 </ul>
 
 <a href="#h2-sprints">Go Back List Sprints</a><br>
@@ -211,7 +216,7 @@ Organize tests in categories.
 <p><b>Day 3:</b> [Expected 2,5000 Done 4] SPI = 1,6 <b>✔</b></p>
 <p><b>Day 4:</b> [Expected 3,3333 Done 5] SPI = 1,5 <b>✔</b></p>
 <p><b>Day 5:</b> [Expected 4,1667 Done 5] SPI = 1,2 <b>✔</b></p>
-<p><b>Day 6:</b> [Expected 5,0000 Done 5] SPI = 1,2 <b>✔</b></p>
+<p><b>Day 6:</b> [Expected 5,0000 Done 7] SPI = 1,4 <b>✔</b></p>
 <p><b>Day 7:</b> [Expected 5,8333 Done ?] SPI = ?  </p>
 <p><b>Day 8:</b> [Expected 6,6667 Done ?] SPI = ?  </p>
 <p><b>Day 9:</b> [Expected 7,5000 Done ?] SPI = ?  </p>

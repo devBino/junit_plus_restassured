@@ -16,7 +16,7 @@ public class FrameTestInit {
 		
 		final String hostName = (args.length > 0)
 				? args[0]
-				: FrameTestConstants.CATEGORY_LIST_TESTS;
+				: FrameTestConstants.CATEGORY_NOT_RETURNED_REGISTERS;
 				
 		FrameTestProcessor.processImplementationTest(hostName);
 		
