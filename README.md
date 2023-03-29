@@ -214,7 +214,7 @@ was categoryzed by Interfaces and Exceptions. Was not finish a goal, works with 
 <br>
 
 <p>
-<b>Sprint Goal: </b> Implemente Tests Rules on the new Test Api implemented at the last sprint.
+<b>Sprint Goal: </b> Implemente Test Rules on the new Test Api implemented at the last sprint.
 </p>
 
 <ul>   
