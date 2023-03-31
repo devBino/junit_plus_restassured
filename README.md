@@ -160,7 +160,7 @@ and also, organize tests in categories.
             <li>Create a basic test to required fields.</li>
         </ul>
     </li>
-    <li><b>☐</b> Task 6 - Separete Tests for Categories <b>Unfinished Task</b></li>
+    <li><b>☐</b> Task 6 - Separete Tests for Categories <b>Doing</b></li>
 </ul>
 
 <br>
@@ -190,7 +190,7 @@ Organize tests in categories.
             <li>Created some caregoryzed tests examples.</li>
         </ul>
     </li>
-    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) <b>Unfinished Task</b></li>
+    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) <b>Doing</b></li>
     <li><b> Task 8 - Implement Tests Exceptions ✔</b> <br>
         <ul>
             <li>Created Category Registers Not Returned Exception.</li>
@@ -218,7 +218,7 @@ was categoryzed by Interfaces and Exceptions. Was not finish a goal, works with 
 </p>
 
 <ul>   
-    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) </li>
+    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) <b>Doing</b></li>
 </ul>
 
 <a href="#h2-sprints">Go Back List Sprints</a><br>
@@ -240,7 +240,7 @@ was categoryzed by Interfaces and Exceptions. Was not finish a goal, works with 
 <p><b>Day 5:</b> [Expected 4,1667 Done 5] SPI = 1,2 <b>✔</b></p>
 <p><b>Day 6:</b> [Expected 5,0000 Done 7] SPI = 1,4 <b>✔</b></p>
 <p><b>Day 7:</b> [Expected 5,8333 Done 7] SPI = 1,2 <b>✔</b></p>
-<p><b>Day 8:</b> [Expected 6,6667 Done ?] SPI = ?  </p>
+<p><b>Day 8:</b> [Expected 6,6667 Done ?] SPI = 1,04 <b>✔</b></p>
 <p><b>Day 9:</b> [Expected 7,5000 Done ?] SPI = ?  </p>
 <p><b>Day 10:</b> [Expected 8,3333 Done ?] SPI = ?  </p>
 <p><b>Day 11:</b> [Expected 9,1667 Done ?] SPI = ?  </p>
