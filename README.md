@@ -231,7 +231,8 @@ was categoryzed by Interfaces and Exceptions. Was not finish a goal, works with 
 </ul>
 
 <br>
-<p><b>Report: </b>All efforts was done to try finish Task 7 during the current sprint.</p>
+<p><b>Report: </b>No Tasks Was finished at the Sprint 5, but SPI indicatior is positive yet, with value 1,04
+at day 8 of this project. Also, all efforts was done to try finish Task 7 during Sprint 5.</p>
 <br>
 
 <a href="#h2-sprints">Go Back List Sprints</a><br>
@@ -271,8 +272,8 @@ was categoryzed by Interfaces and Exceptions. Was not finish a goal, works with 
 <p><b>Day 5:</b> [Expected 4,1667 Done 5] SPI = 1,2 <b>✔</b></p>
 <p><b>Day 6:</b> [Expected 5,0000 Done 7] SPI = 1,4 <b>✔</b></p>
 <p><b>Day 7:</b> [Expected 5,8333 Done 7] SPI = 1,2 <b>✔</b></p>
-<p><b>Day 8:</b> [Expected 6,6667 Done ?] SPI = 1,04 <b>✔</b></p>
-<p><b>Day 9:</b> [Expected 7,5000 Done ?] SPI = 0,93 <b>(X)</b></p>
+<p><b>Day 8:</b> [Expected 6,6667 Done 7] SPI = 1,04 <b>✔</b></p>
+<p><b>Day 9:</b> [Expected 7,5000 Done 7] SPI = 0,93 <b>(X)</b></p>
 <p><b>Day 10:</b> [Expected 8,3333 Done ?] SPI = ?  </p>
 <p><b>Day 11:</b> [Expected 9,1667 Done ?] SPI = ?  </p>
 <p><b>Day 12:</b> [Expected 10,0000 Done ?] SPI = ?  </p>
