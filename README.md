@@ -4,6 +4,7 @@
 
 <ul>
     <li><a href="#h2-project-introduction">Introduction</a></li>
+    <li><a href="#h2-attention">Attetion Points and Risks</a></li>
     <li><a href="#h2-project-rules">Project Execution Rules</a></li>
     <li><a href="#h2-project-backlog">Project Backlog</a></li>
     <li><a href="#h2-sprints">Sprints</a></li>
@@ -27,6 +28,14 @@
 </p>
 
 <p> This introduction will be continue...</p>
+
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-attention">Attention Points and Risks</h2>
+
+<p>[1] - This project has a risk. Some sprints could be goals not finished, because we are working in free times, and inespected externals sitiuations can be more priority.</b>
 
 <a href="#h2-summary">Go Back Summary</a>
 
@@ -81,8 +90,8 @@
 <p><b><a href="#h2-sprint1"> Sprint 1</a></b> Starts 23-03-2023 - Finish 24-03-2023  <b>✔</b></p>
 <p><b><a href="#h2-sprint2"> Sprint 2</a></b> Starts 25-03-2023 - Finish 26-03-2023 <b>✔</b></p>
 <p><b><a href="#h2-sprint3"> Sprint 3</b> Starts 27-03-2023 - Finish 28-03-2023 <b>✔</b></p>
-<p><b><a href="#h2-sprint4"> Sprint 4</b> Starts 29-03-2023 - Finish 30-03-2023 <b>[Current]</b></p>
-<p><b> Sprint 5</b> Starts 31-03-2023 - Finish 01-04-2023</p>
+<p><b><a href="#h2-sprint4"> Sprint 4</b> Starts 29-03-2023 - Finish 30-03-2023 <b>(X)</b></p>
+<p><b><a href="#h2-sprint5"> Sprint 5</b> Starts 31-03-2023 - Finish 01-04-2023 <b>[Current]</b></p>
 <p><b> Sprint 6</b> Starts 02-04-2023 - Finish 03-04-2023</p>
 <p><b> Sprint 7</b> Starts 04-04-2023 - Finish 05-04-2023</p>
 <p><b> Sprint 8</b> Starts 06-04-2023 - Finish 07-04-2023</p>
@@ -160,7 +169,7 @@ and also, organize tests in categories.
             <li>Create a basic test to required fields.</li>
         </ul>
     </li>
-    <li><b>☐</b> Task 6 - Separete Tests for Categories <b>Doing</b></li>
+    <li><b>☐</b> Task 6 - Separete Tests for Categories <b>[Doing]</b></li>
 </ul>
 
 <br>
@@ -190,7 +199,7 @@ Organize tests in categories.
             <li>Created some caregoryzed tests examples.</li>
         </ul>
     </li>
-    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) <b>Doing</b></li>
+    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) <b>[Doing]</b></li>
     <li><b> Task 8 - Implement Tests Exceptions ✔</b> <br>
         <ul>
             <li>Created Category Registers Not Returned Exception.</li>
@@ -218,7 +227,29 @@ was categoryzed by Interfaces and Exceptions. Was not finish a goal, works with 
 </p>
 
 <ul>   
-    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) <b>Doing</b></li>
+    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) <b>[Doing]</b></li>
+</ul>
+
+<br>
+<p><b>Report: </b>All efforts was done to try finish Task 7 during the current sprint.</p>
+<br>
+
+<a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-sprint5">SPRINT 5</h2><br>
+
+<br>
+
+<p>
+<b>Sprint Goal: </b> Implemente Test Rules on the new Test Api. Create Parameterized Tests.
+</p>
+
+<ul>   
+    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) <b>[Doing]</b></li>
+    <li><b>☐</b> Task 9 - Create Parameterized Class Test to run multiple tests</li>
 </ul>
 
 <a href="#h2-sprints">Go Back List Sprints</a><br>
@@ -241,7 +272,7 @@ was categoryzed by Interfaces and Exceptions. Was not finish a goal, works with 
 <p><b>Day 6:</b> [Expected 5,0000 Done 7] SPI = 1,4 <b>✔</b></p>
 <p><b>Day 7:</b> [Expected 5,8333 Done 7] SPI = 1,2 <b>✔</b></p>
 <p><b>Day 8:</b> [Expected 6,6667 Done ?] SPI = 1,04 <b>✔</b></p>
-<p><b>Day 9:</b> [Expected 7,5000 Done ?] SPI = ?  </p>
+<p><b>Day 9:</b> [Expected 7,5000 Done ?] SPI = 0,93 <b>(X)</b></p>
 <p><b>Day 10:</b> [Expected 8,3333 Done ?] SPI = ?  </p>
 <p><b>Day 11:</b> [Expected 9,1667 Done ?] SPI = ?  </p>
 <p><b>Day 12:</b> [Expected 10,0000 Done ?] SPI = ?  </p>
