@@ -14,7 +14,7 @@ import br.com.fbm.frametest.tests.fipe.FipeModelTestApi;
 
 /**
  * {@code StrategyCategoryFipeFlowTest} Strategic implementation to
- * debugger categorized flow api tests apis
+ * debugger categorized flow fipe api tests
  *
  * @author Fernando Bino Machado
  */
