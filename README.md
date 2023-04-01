@@ -65,7 +65,7 @@
     <li>Task 4 - Generic Code Review to correct the project pattern (to consider multiple test APIs) <b>✔</b></li>
     <li>Task 5 - Complete basic flow to the reqres api <b>✔</b></li>
     <li>Task 6 - Separete Tests for Categories <b>✔</b></li>
-    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds)</li>
+    <li>Task 7 - Implement Tests Rules <b>✔</b></li>
     <li>Task 8 - Implement Tests Exceptions <b>✔</b></li>
     <li><b>☐</b> Task 9 - Create Parameterized Class Test to run multiple tests</li>
     <li><b>☐</b> Task 10 - Implement runner functionality</li>
@@ -249,7 +249,11 @@ at day 8 of this project. Also, all efforts was done to try finish Task 7 during
 </p>
 
 <ul>   
-    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) <b>[Doing]</b></li>
+    <li><b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) ✔</b><br>
+        <ul>
+            <li>Created Categorized Tests to the new Rules and Expecteds.</li>
+        </ul>
+    </li>
     <li><b>☐</b> Task 9 - Create Parameterized Class Test to run multiple tests</li>
 </ul>
 
@@ -274,7 +278,7 @@ at day 8 of this project. Also, all efforts was done to try finish Task 7 during
 <p><b>Day 7:</b> [Expected 5,8333 Done 7] SPI = 1,2 <b>✔</b></p>
 <p><b>Day 8:</b> [Expected 6,6667 Done 7] SPI = 1,04 <b>✔</b></p>
 <p><b>Day 9:</b> [Expected 7,5000 Done 7] SPI = 0,93 <b>(X)</b></p>
-<p><b>Day 10:</b> [Expected 8,3333 Done ?] SPI = ?  </p>
+<p><b>Day 10:</b> [Expected 8,3333 Done 8] SPI = 0,96 <b>(X)</b></p>
 <p><b>Day 11:</b> [Expected 9,1667 Done ?] SPI = ?  </p>
 <p><b>Day 12:</b> [Expected 10,0000 Done ?] SPI = ?  </p>
 <p><b>Day 13:</b> [Expected 10,8333 Done ?] SPI = ?  </p>
