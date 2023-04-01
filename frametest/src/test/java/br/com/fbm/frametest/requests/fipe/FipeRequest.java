@@ -38,4 +38,20 @@ public class FipeRequest {
 		
 	}
 	
+	public Response listModelsByBrandCode() {
+		
+		try {
+			
+			baseURI = baseUriApi;
+			
+			return given()
+					.get();
+			
+		}catch(final Exception exception) {
+			System.out.println(exception.getMessage());
+			return null;
+		}
+		
+	}
+	
 }
