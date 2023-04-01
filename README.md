@@ -254,7 +254,7 @@ at day 8 of this project. Also, all efforts was done to try finish Task 7 during
             <li>Created Categorized Tests to the new Rules and Expecteds.</li>
         </ul>
     </li>
-    <li><b>☐</b> Task 9 - Create Parameterized Class Test to run multiple tests</li>
+    <li><b>☐</b> Task 9 - Create Parameterized Class Test to run multiple tests <b>[Doing]</b></li>
 </ul>
 
 <a href="#h2-sprints">Go Back List Sprints</a><br>
