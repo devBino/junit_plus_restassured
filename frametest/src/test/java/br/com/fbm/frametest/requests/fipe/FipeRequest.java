@@ -54,4 +54,18 @@ public class FipeRequest {
 		
 	}
 	
+	public Response listYearsModelsByCodeModel(final String pUrl) {
+		
+		try {
+			
+			return given()
+					.get(pUrl);
+			
+		}catch(final Exception exception) {
+			System.out.println(exception.getMessage());
+			return null;
+		}
+		
+	}
+	
 }
