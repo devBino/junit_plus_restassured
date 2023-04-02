@@ -91,8 +91,8 @@
 <p><b><a href="#h2-sprint2"> Sprint 2</a></b> Starts 25-03-2023 - Finish 26-03-2023 <b>✔</b></p>
 <p><b><a href="#h2-sprint3"> Sprint 3</b> Starts 27-03-2023 - Finish 28-03-2023 <b>✔</b></p>
 <p><b><a href="#h2-sprint4"> Sprint 4</b> Starts 29-03-2023 - Finish 30-03-2023 <b>(X)</b></p>
-<p><b><a href="#h2-sprint5"> Sprint 5</b> Starts 31-03-2023 - Finish 01-04-2023 <b>[Current]</b></p>
-<p><b> Sprint 6</b> Starts 02-04-2023 - Finish 03-04-2023</p>
+<p><b><a href="#h2-sprint5"> Sprint 5</b> Starts 31-03-2023 - Finish 01-04-2023 <b>✔</b></p>
+<p><b><a href="#h2-sprint6"> Sprint 6</b> Starts 02-04-2023 - Finish 03-04-2023 <b>[Current]</b></p>
 <p><b> Sprint 7</b> Starts 04-04-2023 - Finish 05-04-2023</p>
 <p><b> Sprint 8</b> Starts 06-04-2023 - Finish 07-04-2023</p>
 <p><b> Sprint 9</b> Starts 08-04-2023 - Finish 09-04-2023</p>
@@ -257,6 +257,34 @@ at day 8 of this project. Also, all efforts was done to try finish Task 7 during
     <li><b>☐</b> Task 9 - Create Parameterized Class Test to run multiple tests <b>[Doing]</b></li>
 </ul>
 
+<br>
+<p><b>Report: </b>In the end of the Sprint 5, SPI indicatior was negative with 0,96 value.
+Also, Task 7 was finished, contributing to the sprint goal, so that means all efforts was done
+to reach the goals. Was Implemented Test Rules on the new Test Api, and started studies to create
+parameterized tests.</p>
+<br>
+
+<a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-sprint6">SPRINT 6</h2><br>
+
+<br>
+
+<p>
+<b>Sprint Goal: </b>Create Parameterized Tests.
+Rise new free APIs to work on this project.
+</p>
+
+<ul>   
+    <li><b>☐</b> Task 9 - Create Parameterized Class Test to run multiple tests <b>[Doing]</b></li>
+    <li><b>☐</b> Task 19 - Rise some free Rest Apis and Soap WebServices to include to the project</li>
+</ul>
+
+<br>
+
 <a href="#h2-sprints">Go Back List Sprints</a><br>
 <a href="#h2-summary">Go Back Summary</a>
 
@@ -279,7 +307,7 @@ at day 8 of this project. Also, all efforts was done to try finish Task 7 during
 <p><b>Day 8:</b> [Expected 6,6667 Done 7] SPI = 1,04 <b>✔</b></p>
 <p><b>Day 9:</b> [Expected 7,5000 Done 7] SPI = 0,93 <b>(X)</b></p>
 <p><b>Day 10:</b> [Expected 8,3333 Done 8] SPI = 0,96 <b>(X)</b></p>
-<p><b>Day 11:</b> [Expected 9,1667 Done ?] SPI = ?  </p>
+<p><b>Day 11:</b> [Expected 9,1667 Done ?] SPI = 0,87 <b>(X)</b></p>
 <p><b>Day 12:</b> [Expected 10,0000 Done ?] SPI = ?  </p>
 <p><b>Day 13:</b> [Expected 10,8333 Done ?] SPI = ?  </p>
 <p><b>Day 14:</b> [Expected 11,6667 Done ?] SPI = ?  </p>
