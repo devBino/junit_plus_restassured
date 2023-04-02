@@ -67,7 +67,7 @@
     <li>Task 6 - Separete Tests for Categories <b>✔</b></li>
     <li>Task 7 - Implement Tests Rules <b>✔</b></li>
     <li>Task 8 - Implement Tests Exceptions <b>✔</b></li>
-    <li><b>☐</b> Task 9 - Create Parameterized Class Test to run multiple tests</li>
+    <li>Task 9 - Create Parameterized Class Test to run multiple tests <b>✔</b></li>
     <li><b>☐</b> Task 10 - Implement runner functionality</li>
     <li><b>☐</b> Task 11 - Implement report functionality</li>
     <li><b>☐</b> Task 12 - Implement pdf report after tests</li>
@@ -279,8 +279,13 @@ Rise new free APIs to work on this project.
 </p>
 
 <ul>   
-    <li><b>☐</b> Task 9 - Create Parameterized Class Test to run multiple tests <b>[Doing]</b></li>
-    <li><b>☐</b> Task 19 - Rise some free Rest Apis and Soap WebServices to include to the project</li>
+    <li><b> Task 9 - Create Parameterized Class Test to run multiple tests ✔</b><br>
+        <ul>
+            <li>Created Parameterized Test class for each ModelBO retrieved.</li>
+            <li>Create a test to check if years was found for each ModelBO.</li>
+        </ul>
+    </li>
+    <li><b>☐</b> Task 19 - Rise some free Rest Apis and Soap WebServices to include to the project <b>[Doing]</b></li>
 </ul>
 
 <br>
@@ -307,7 +312,7 @@ Rise new free APIs to work on this project.
 <p><b>Day 8:</b> [Expected 6,6667 Done 7] SPI = 1,04 <b>✔</b></p>
 <p><b>Day 9:</b> [Expected 7,5000 Done 7] SPI = 0,93 <b>(X)</b></p>
 <p><b>Day 10:</b> [Expected 8,3333 Done 8] SPI = 0,96 <b>(X)</b></p>
-<p><b>Day 11:</b> [Expected 9,1667 Done ?] SPI = 0,87 <b>(X)</b></p>
+<p><b>Day 11:</b> [Expected 9,1667 Done 9] SPI = 0,98 <b>(X)</b></p>
 <p><b>Day 12:</b> [Expected 10,0000 Done ?] SPI = ?  </p>
 <p><b>Day 13:</b> [Expected 10,8333 Done ?] SPI = ?  </p>
 <p><b>Day 14:</b> [Expected 11,6667 Done ?] SPI = ?  </p>

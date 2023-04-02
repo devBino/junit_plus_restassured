@@ -31,13 +31,6 @@ import br.com.fbm.frametest.iface.TestRegistersNotReturnedExceptionCategory;
  * @author Fernando Bino Machado
  */
 public class FipeBrandTestApi {
-
-	/**
-	 * Genericaly for this entity all requests does not need 
-	 * more than 3000 miliseconds
-	 */
-	@Rule
-	public Timeout timeoutRequests = new Timeout(3000);
 	
 	private static FipeRequest fipeRequest;
 	
@@ -51,7 +44,7 @@ public class FipeBrandTestApi {
 		
 	}
 	
-	@Test
+	@Test(timeout = 1000)
 	@Category(TestListCategory.class)
 	public void testListBrands() {
 		

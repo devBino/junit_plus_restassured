@@ -6,11 +6,11 @@ import static org.junit.Assert.fail;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.junit.Rule;
 import org.junit.Test;
 import org.junit.BeforeClass;
-import org.junit.rules.Timeout;
+import org.junit.runner.JUnitCore;
 import org.junit.experimental.categories.Category;
+import org.junit.internal.TextListener;
 
 import br.com.fbm.frametest.bo.fipe.ListModelsBO;
 import br.com.fbm.frametest.bo.fipe.ModelBO;
@@ -30,13 +30,6 @@ import io.restassured.response.Response;
  * @author Fernando Bino Machado
  */
 public class FipeModelTestApi {
-	
-	/**
-	 * Genericaly for this entity all requests does not need 
-	 * more than 3000 miliseconds
-	 */
-	@Rule
-	public Timeout timeoutRequests = new Timeout(3000);
 
 	private static FipeRequest fipeRequest;
 	private static List<ModelBO> filteredModels;
@@ -100,7 +93,12 @@ public class FipeModelTestApi {
 				
 	}
 	
-	@Test
+	/**
+	 * The particular timeout 15000 here, is because
+	 * we gonna call a parameterized test, that run requests 
+	 * to the api rest for each found model stored on the cache.
+	 */
+	@Test(timeout = 15000)
 	@Category(FipeApiFlow.class)
 	public void testGetModelByBrandCode() {
 		
@@ -130,7 +128,18 @@ public class FipeModelTestApi {
 		
 		FipeApiCache.getCache().addInfo(FipeApiConstants.FILTERED_MODELS, filteredModels);
 		
+		runnerTestFoundModels();
+		
 	}
 	
+	public void runnerTestFoundModels() {
+
+		JUnitCore runner = new JUnitCore();
+		
+		runner.addListener( new TextListener(System.out) );
+		runner.run(FipeYearsModelTestApi.class);
+		
+	}
+
 	
 }

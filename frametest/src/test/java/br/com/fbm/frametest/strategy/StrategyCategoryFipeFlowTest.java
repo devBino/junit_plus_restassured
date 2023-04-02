@@ -11,6 +11,7 @@ import br.com.fbm.frametest.iface.FipeApiFlow;
 import br.com.fbm.frametest.iface.FrameTest;
 import br.com.fbm.frametest.tests.fipe.FipeBrandTestApi;
 import br.com.fbm.frametest.tests.fipe.FipeModelTestApi;
+import br.com.fbm.frametest.tests.fipe.FipeYearsModelTestApi;
 
 /**
  * {@code StrategyCategoryFipeFlowTest} Strategic implementation to
