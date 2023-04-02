@@ -93,6 +93,11 @@ public class FipeModelTestApi {
 				
 	}
 	
+	/**
+	 * The particular timeout 15000 here, is because
+	 * we gonna call a parameterized test, that run requests 
+	 * to the api rest for each found model stored on the cache.
+	 */
 	@Test(timeout = 15000)
 	@Category(FipeApiFlow.class)
 	public void testGetModelByBrandCode() {
