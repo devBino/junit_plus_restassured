@@ -9,33 +9,42 @@ import io.restassured.response.Response;
 
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.junit.rules.Timeout;
 import org.junit.BeforeClass;
+import org.junit.Rule;
 
 import br.com.fbm.frametest.requests.fipe.FipeRequest;
 import br.com.fbm.frametest.bo.fipe.BrandBO;
+import br.com.fbm.frametest.cache.FipeApiCache;
+import br.com.fbm.frametest.constants.FipeApiConstants;
 import br.com.fbm.frametest.converters.fipe.FipeConverter;
 import br.com.fbm.frametest.exception.RegistersNotReturnedException;
+import br.com.fbm.frametest.iface.FipeApiFlow;
 import br.com.fbm.frametest.iface.TestListCategory;
 import br.com.fbm.frametest.iface.TestRegistersNotReturnedExceptionCategory;
 
 /**
  * {@code FipeTestApi} given implementation
- * to do tests for the user entity for the
- * reqres.in api
+ * to do tests for the Brand entity for the
+ * parallelun api
  *
  * @author Fernando Bino Machado
  */
 public class FipeBrandTestApi {
-
+	
 	private static FipeRequest fipeRequest;
 	
 	@BeforeClass
 	public static void setUp() {
+		
+		FipeApiCache.getCache().addInfo(FipeApiConstants.BRAND_NAME, "Fiat");
+		
 		fipeRequest = new FipeRequest();
 		fipeRequest.setBaseUriApi("https://parallelum.com.br/fipe/api/v1/carros/marcas");
+		
 	}
 	
-	@Test
+	@Test(timeout = 1000)
 	@Category(TestListCategory.class)
 	public void testListBrands() {
 		
@@ -85,6 +94,38 @@ public class FipeBrandTestApi {
 		if( !brandBO.isPresent() ) {
 			throw new RegistersNotReturnedException("A expected list brands was not retrieved.");			
 		}
+		
+	}
+	
+	@Test
+	@Category(FipeApiFlow.class)
+	public void testGetBrandCode() {
+		
+		//send request to retrieve a list brands
+		final Response respListBrands = fipeRequest.listBrands();
+		
+		if(respListBrands == null) {
+			fail("No Brands was returned.");
+		}
+		
+		//Convert response to next tests
+		final List<BrandBO> listBrandsBO = FipeConverter
+				.stringToListBrandsBO(respListBrands.getBody().asString());
+		
+		//try find a brandBO with name "Fiat"
+		final Optional<BrandBO> brandBO = listBrandsBO
+				.stream()
+				.filter(b -> b.getName().equals(
+						FipeApiCache.getCache().getInfo(FipeApiConstants.BRAND_NAME)))
+				.findFirst();
+		
+		if( !brandBO.isPresent() ) {
+			fail("No brand with Fiat name was found.");
+		}
+		
+		assertNotNull("Code Brand was converted.", brandBO.get().getCode());
+		
+		FipeApiCache.getCache().addInfo(FipeApiConstants.BRAND_CODE, brandBO.get().getCode());
 		
 	}
 	

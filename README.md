@@ -4,6 +4,7 @@
 
 <ul>
     <li><a href="#h2-project-introduction">Introduction</a></li>
+    <li><a href="#h2-attention">Attetion Points and Risks</a></li>
     <li><a href="#h2-project-rules">Project Execution Rules</a></li>
     <li><a href="#h2-project-backlog">Project Backlog</a></li>
     <li><a href="#h2-sprints">Sprints</a></li>
@@ -27,6 +28,14 @@
 </p>
 
 <p> This introduction will be continue...</p>
+
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-attention">Attention Points and Risks</h2>
+
+<p>[1] - This project has a risk. Some sprints could be goals not finished, because we are working in free times, and inespected externals sitiuations can be more priority.</b>
 
 <a href="#h2-summary">Go Back Summary</a>
 
@@ -56,9 +65,9 @@
     <li>Task 4 - Generic Code Review to correct the project pattern (to consider multiple test APIs) <b>✔</b></li>
     <li>Task 5 - Complete basic flow to the reqres api <b>✔</b></li>
     <li>Task 6 - Separete Tests for Categories <b>✔</b></li>
-    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds)</li>
+    <li>Task 7 - Implement Tests Rules <b>✔</b></li>
     <li>Task 8 - Implement Tests Exceptions <b>✔</b></li>
-    <li><b>☐</b> Task 9 - Create Parameterized Class Test to run multiple tests</li>
+    <li>Task 9 - Create Parameterized Class Test to run multiple tests <b>✔</b></li>
     <li><b>☐</b> Task 10 - Implement runner functionality</li>
     <li><b>☐</b> Task 11 - Implement report functionality</li>
     <li><b>☐</b> Task 12 - Implement pdf report after tests</li>
@@ -68,7 +77,7 @@
     <li><b>☐</b> Task 16 - Implement a case integrated with Selenium</li>
     <li><b>☐</b> Task 17 - Analyse if we gonna implement some graphical interface</li>
     <li><b>☐</b> Task 18 - Generate Jars and Document to Download</li>
-    <li><b>☐</b> Task 19 - Rise some free Rest Apis and Soap WebServices to include to the project</li>
+    <li>Task 19 - Choose some free Rest Apis and Soap WebServices to include to the project <b>✔</b></li>
     <li><b>☐</b> Task 20 - Review Contents on the README.md (English revision!!)</li>
 </ul>
 
@@ -81,10 +90,10 @@
 <p><b><a href="#h2-sprint1"> Sprint 1</a></b> Starts 23-03-2023 - Finish 24-03-2023  <b>✔</b></p>
 <p><b><a href="#h2-sprint2"> Sprint 2</a></b> Starts 25-03-2023 - Finish 26-03-2023 <b>✔</b></p>
 <p><b><a href="#h2-sprint3"> Sprint 3</b> Starts 27-03-2023 - Finish 28-03-2023 <b>✔</b></p>
-<p><b><a href="#h2-sprint4"> Sprint 4</b> Starts 29-03-2023 - Finish 30-03-2023 <b>[Current]</b></p>
-<p><b> Sprint 5</b> Starts 31-03-2023 - Finish 01-04-2023</p>
-<p><b> Sprint 6</b> Starts 02-04-2023 - Finish 03-04-2023</p>
-<p><b> Sprint 7</b> Starts 04-04-2023 - Finish 05-04-2023</p>
+<p><b><a href="#h2-sprint4"> Sprint 4</b> Starts 29-03-2023 - Finish 30-03-2023 <b>(X)</b></p>
+<p><b><a href="#h2-sprint5"> Sprint 5</b> Starts 31-03-2023 - Finish 01-04-2023 <b>✔</b></p>
+<p><b><a href="#h2-sprint6"> Sprint 6</b> Starts 02-04-2023 - Finish 03-04-2023 <b>✔</b></p>
+<p><b><a href="#h2-sprint7"> Sprint 7</b> Starts 04-04-2023 - Finish 05-04-2023 <b>[Current]</b></p>
 <p><b> Sprint 8</b> Starts 06-04-2023 - Finish 07-04-2023</p>
 <p><b> Sprint 9</b> Starts 08-04-2023 - Finish 09-04-2023</p>
 <p><b> Sprint 10</b> Starts 10-04-2023 - Finish 11-04-2023</p>
@@ -160,7 +169,7 @@ and also, organize tests in categories.
             <li>Create a basic test to required fields.</li>
         </ul>
     </li>
-    <li><b>☐</b> Task 6 - Separete Tests for Categories <b>Unfinished Task</b></li>
+    <li><b>☐</b> Task 6 - Separete Tests for Categories <b>[Doing]</b></li>
 </ul>
 
 <br>
@@ -190,7 +199,7 @@ Organize tests in categories.
             <li>Created some caregoryzed tests examples.</li>
         </ul>
     </li>
-    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) <b>Unfinished Task</b></li>
+    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) <b>[Doing]</b></li>
     <li><b> Task 8 - Implement Tests Exceptions ✔</b> <br>
         <ul>
             <li>Created Category Registers Not Returned Exception.</li>
@@ -218,8 +227,102 @@ was categoryzed by Interfaces and Exceptions. Was not finish a goal, works with 
 </p>
 
 <ul>   
-    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) </li>
+    <li><b>☐</b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) <b>[Doing]</b></li>
 </ul>
+
+<br>
+<p><b>Report: </b>No Tasks Was finished at the Sprint 5, but SPI indicatior is positive yet, with value 1,04
+at day 8 of this project. Also, all efforts was done to try finish Task 7 during Sprint 5.</p>
+<br>
+
+<a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-sprint5">SPRINT 5</h2><br>
+
+<br>
+
+<p>
+<b>Sprint Goal: </b> Implemente Test Rules on the new Test Api. Create Parameterized Tests.
+</p>
+
+<ul>   
+    <li><b> Task 7 - Implement Tests Rules (Timeouts and Expecteds) ✔</b><br>
+        <ul>
+            <li>Created Categorized Tests to the new Rules and Expecteds.</li>
+        </ul>
+    </li>
+    <li><b>☐</b> Task 9 - Create Parameterized Class Test to run multiple tests <b>[Doing]</b></li>
+</ul>
+
+<br>
+<p><b>Report: </b>In the end of the Sprint 5, SPI indicatior was negative with 0,96 value.
+Also, Task 7 was finished, contributing to the sprint goal, so that means all efforts was done
+to reach the goals. Was Implemented Test Rules on the new Test Api, and started studies to create
+parameterized tests.</p>
+<br>
+
+<a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-sprint6">SPRINT 6</h2><br>
+
+<br>
+
+<p>
+<b>Sprint Goal: </b>Create Parameterized Tests.
+Rise new free APIs to work on this project.
+</p>
+
+<ul>   
+    <li><b> Task 9 - Create Parameterized Class Test to run multiple tests ✔</b><br>
+        <ul>
+            <li>Created Parameterized Test class for each ModelBO retrieved.</li>
+            <li>Create a test to check if years was found for each ModelBO.</li>
+        </ul>
+    </li>
+    <li><b> Task 19 - Choose some free Rest Apis and Soap WebServices to include to the project ✔</b><br>
+        <ul>
+            <li>The follow APIs was choosed to be tested:</li>
+            <li>Fake Store API <a href="https://fakestoreapi.com/" target="_blank">[See]</a>.
+            </li>
+            <li>Digital Bible <a href="https://www.abibliadigital.com.br/en?ref=publicapis.dev" target="_blank">[See]</a>.
+            </li>
+            <li>Advice Slip JSON API <a href="https://api.adviceslip.com/#endpoint-random" target="_blank">[See]</a>.
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<br>
+<p><b>Report: </b>All sprint goals was finished during Sprint 6. In the end of this Sprint 
+the SPI indicator was 1.</p>
+<br>
+
+<a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-sprint7">SPRINT 7</h2><br>
+
+<br>
+
+<p>
+<b>Sprint Goal: </b>Combine JUnit tests with different libraries
+such as: JSoup. Also, implement tests to consume XML Soap Responses.
+</p>
+
+<ul>   
+    <li><b>☐</b> Task 13 - Implement tests to consumer a XML Soap Web Service</li>
+    <li><b>☐</b> Task 15 - Implement a case integrated with JSoup library</li>
+</ul>
+
+<br>
 
 <a href="#h2-sprints">Go Back List Sprints</a><br>
 <a href="#h2-summary">Go Back Summary</a>
@@ -240,12 +343,12 @@ was categoryzed by Interfaces and Exceptions. Was not finish a goal, works with 
 <p><b>Day 5:</b> [Expected 4,1667 Done 5] SPI = 1,2 <b>✔</b></p>
 <p><b>Day 6:</b> [Expected 5,0000 Done 7] SPI = 1,4 <b>✔</b></p>
 <p><b>Day 7:</b> [Expected 5,8333 Done 7] SPI = 1,2 <b>✔</b></p>
-<p><b>Day 8:</b> [Expected 6,6667 Done ?] SPI = ?  </p>
-<p><b>Day 9:</b> [Expected 7,5000 Done ?] SPI = ?  </p>
-<p><b>Day 10:</b> [Expected 8,3333 Done ?] SPI = ?  </p>
-<p><b>Day 11:</b> [Expected 9,1667 Done ?] SPI = ?  </p>
-<p><b>Day 12:</b> [Expected 10,0000 Done ?] SPI = ?  </p>
-<p><b>Day 13:</b> [Expected 10,8333 Done ?] SPI = ?  </p>
+<p><b>Day 8:</b> [Expected 6,6667 Done 7] SPI = 1,04 <b>✔</b></p>
+<p><b>Day 9:</b> [Expected 7,5000 Done 7] SPI = 0,93 <b>(X)</b></p>
+<p><b>Day 10:</b> [Expected 8,3333 Done 8] SPI = 0,96 <b>(X)</b></p>
+<p><b>Day 11:</b> [Expected 9,1667 Done 9] SPI = 0,98 <b>(X)</b></p>
+<p><b>Day 12:</b> [Expected 10,0000 Done 10] SPI = 1 <b>✔</b></p>
+<p><b>Day 13:</b> [Expected 10,8333 Done 10] SPI = 0,92 <b>(X)</b></p>
 <p><b>Day 14:</b> [Expected 11,6667 Done ?] SPI = ?  </p>
 <p><b>Day 15:</b> [Expected 12,5000 Done ?] SPI = ?  </p>
 <p><b>Day 16:</b> [Expected 13,3333 Done ?] SPI = ?  </p>
