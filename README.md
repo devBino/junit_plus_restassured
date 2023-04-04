@@ -77,7 +77,7 @@
     <li><b>☐</b> Task 16 - Implement a case integrated with Selenium</li>
     <li><b>☐</b> Task 17 - Analyse if we gonna implement some graphical interface</li>
     <li><b>☐</b> Task 18 - Generate Jars and Document to Download</li>
-    <li><b>☐</b> Task 19 - Rise some free Rest Apis and Soap WebServices to include to the project</li>
+    <li>Task 19 - Choose some free Rest Apis and Soap WebServices to include to the project <b>✔</b></li>
     <li><b>☐</b> Task 20 - Review Contents on the README.md (English revision!!)</li>
 </ul>
 
@@ -285,7 +285,17 @@ Rise new free APIs to work on this project.
             <li>Create a test to check if years was found for each ModelBO.</li>
         </ul>
     </li>
-    <li><b>☐</b> Task 19 - Rise some free Rest Apis and Soap WebServices to include to the project <b>[Doing]</b></li>
+    <li><b> Task 19 - Choose some free Rest Apis and Soap WebServices to include to the project ✔</b><br>
+        <ul>
+            <li>The follow APIs was choosed to be tested:</li>
+            <li>Fake Store API <a href="https://fakestoreapi.com/" target="_blank">[See]</a>.
+            </li>
+            <li>Digital Bible <a href="https://www.abibliadigital.com.br/en?ref=publicapis.dev" target="_blank">[See]</a>.
+            </li>
+            <li>Advice Slip JSON API <a href="https://api.adviceslip.com/#endpoint-random" target="_blank">[See]</a>.
+            </li>
+        </ul>
+    </li>
 </ul>
 
 <br>
@@ -313,7 +323,7 @@ Rise new free APIs to work on this project.
 <p><b>Day 9:</b> [Expected 7,5000 Done 7] SPI = 0,93 <b>(X)</b></p>
 <p><b>Day 10:</b> [Expected 8,3333 Done 8] SPI = 0,96 <b>(X)</b></p>
 <p><b>Day 11:</b> [Expected 9,1667 Done 9] SPI = 0,98 <b>(X)</b></p>
-<p><b>Day 12:</b> [Expected 10,0000 Done ?] SPI = ?  </p>
+<p><b>Day 12:</b> [Expected 10,0000 Done 10] SPI = 1 <b>✔</b></p>
 <p><b>Day 13:</b> [Expected 10,8333 Done ?] SPI = ?  </p>
 <p><b>Day 14:</b> [Expected 11,6667 Done ?] SPI = ?  </p>
 <p><b>Day 15:</b> [Expected 12,5000 Done ?] SPI = ?  </p>
