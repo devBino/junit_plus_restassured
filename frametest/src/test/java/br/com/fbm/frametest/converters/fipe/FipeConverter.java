@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.fbm.frametest.bo.fipe.BrandBO;
+import br.com.fbm.frametest.bo.fipe.YearBO;
 import br.com.fbm.frametest.converters.GenericConverter;
 
 /**
@@ -26,6 +27,24 @@ public class FipeConverter extends GenericConverter {
 			}
 			
 			return new ArrayList<BrandBO>();
+			
+		}catch(final Exception exception) {
+			return null;
+		}
+		
+	}
+	
+	public static List<YearBO> stringToListYearBOs(final String pJson) {
+		
+		try {
+			
+			final YearBO[] convertItems = objMapper.readValue(pJson, YearBO[].class);
+			
+			if( convertItems != null ) {
+				return List.of(convertItems);
+			}
+			
+			return new ArrayList<YearBO>();
 			
 		}catch(final Exception exception) {
 			return null;

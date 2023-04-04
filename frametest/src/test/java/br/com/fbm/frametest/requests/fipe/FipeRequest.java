@@ -38,4 +38,34 @@ public class FipeRequest {
 		
 	}
 	
+	public Response listModelsByBrandCode() {
+		
+		try {
+			
+			baseURI = baseUriApi;
+			
+			return given()
+					.get();
+			
+		}catch(final Exception exception) {
+			System.out.println(exception.getMessage());
+			return null;
+		}
+		
+	}
+	
+	public Response listYearsModelsByCodeModel(final String pUrl) {
+		
+		try {
+			
+			return given()
+					.get(pUrl);
+			
+		}catch(final Exception exception) {
+			System.out.println(exception.getMessage());
+			return null;
+		}
+		
+	}
+	
 }
