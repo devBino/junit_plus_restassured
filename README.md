@@ -92,8 +92,8 @@
 <p><b><a href="#h2-sprint3"> Sprint 3</b> Starts 27-03-2023 - Finish 28-03-2023 <b>✔</b></p>
 <p><b><a href="#h2-sprint4"> Sprint 4</b> Starts 29-03-2023 - Finish 30-03-2023 <b>(X)</b></p>
 <p><b><a href="#h2-sprint5"> Sprint 5</b> Starts 31-03-2023 - Finish 01-04-2023 <b>✔</b></p>
-<p><b><a href="#h2-sprint6"> Sprint 6</b> Starts 02-04-2023 - Finish 03-04-2023 <b>[Current]</b></p>
-<p><b> Sprint 7</b> Starts 04-04-2023 - Finish 05-04-2023</p>
+<p><b><a href="#h2-sprint6"> Sprint 6</b> Starts 02-04-2023 - Finish 03-04-2023 <b>✔</b></p>
+<p><b><a href="#h2-sprint7"> Sprint 7</b> Starts 04-04-2023 - Finish 05-04-2023 <b>[Current]</b></p>
 <p><b> Sprint 8</b> Starts 06-04-2023 - Finish 07-04-2023</p>
 <p><b> Sprint 9</b> Starts 08-04-2023 - Finish 09-04-2023</p>
 <p><b> Sprint 10</b> Starts 10-04-2023 - Finish 11-04-2023</p>
@@ -299,6 +299,30 @@ Rise new free APIs to work on this project.
 </ul>
 
 <br>
+<p><b>Report: </b>All sprint goals was finished during Sprint 6. In the end of this Sprint 
+the SPI indicator was 1.</p>
+<br>
+
+<a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-sprint7">SPRINT 7</h2><br>
+
+<br>
+
+<p>
+<b>Sprint Goal: </b>Combine JUnit tests with different libraries
+such as: JSoup. Also, implement tests to consume XML Soap Responses.
+</p>
+
+<ul>   
+    <li><b>☐</b> Task 13 - Implement tests to consumer a XML Soap Web Service</li>
+    <li><b>☐</b> Task 15 - Implement a case integrated with JSoup library</li>
+</ul>
+
+<br>
 
 <a href="#h2-sprints">Go Back List Sprints</a><br>
 <a href="#h2-summary">Go Back Summary</a>
@@ -324,7 +348,7 @@ Rise new free APIs to work on this project.
 <p><b>Day 10:</b> [Expected 8,3333 Done 8] SPI = 0,96 <b>(X)</b></p>
 <p><b>Day 11:</b> [Expected 9,1667 Done 9] SPI = 0,98 <b>(X)</b></p>
 <p><b>Day 12:</b> [Expected 10,0000 Done 10] SPI = 1 <b>✔</b></p>
-<p><b>Day 13:</b> [Expected 10,8333 Done ?] SPI = ?  </p>
+<p><b>Day 13:</b> [Expected 10,8333 Done 10] SPI = 0,92 <b>(X)</b></p>
 <p><b>Day 14:</b> [Expected 11,6667 Done ?] SPI = ?  </p>
 <p><b>Day 15:</b> [Expected 12,5000 Done ?] SPI = ?  </p>
 <p><b>Day 16:</b> [Expected 13,3333 Done ?] SPI = ?  </p>
