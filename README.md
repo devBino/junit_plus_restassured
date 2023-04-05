@@ -3,7 +3,7 @@
 <h2 id="h2-summary">Summary</h2>
 
 <ul>
-    <li><a href="#h2-project-introduction">Introduction</a></li>
+    <li><a href="#h2-project-introduction">Introduction</a> </li>
     <li><a href="#h2-attention">Attetion Points and Risks</a></li>
     <li><a href="#h2-project-rules">Project Execution Rules</a></li>
     <li><a href="#h2-project-backlog">Project Backlog</a></li>
