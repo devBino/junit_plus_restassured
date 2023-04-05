@@ -93,7 +93,7 @@
 <p><b><a href="#h2-sprint4"> Sprint 4</b> Starts 29-03-2023 - Finish 30-03-2023 <b>(X)</b></p>
 <p><b><a href="#h2-sprint5"> Sprint 5</b> Starts 31-03-2023 - Finish 01-04-2023 <b>✔</b></p>
 <p><b><a href="#h2-sprint6"> Sprint 6</b> Starts 02-04-2023 - Finish 03-04-2023 <b>✔</b></p>
-<p><b><a href="#h2-sprint7"> Sprint 7</b> Starts 04-04-2023 - Finish 05-04-2023 <b>[Current]</b></p>
+<p><b><a href="#h2-sprint7"> Sprint 7</b> Starts 04-04-2023 - Finish 05-04-2023 <b>[Current] </b></p>
 <p><b> Sprint 8</b> Starts 06-04-2023 - Finish 07-04-2023</p>
 <p><b> Sprint 9</b> Starts 08-04-2023 - Finish 09-04-2023</p>
 <p><b> Sprint 10</b> Starts 10-04-2023 - Finish 11-04-2023</p>
