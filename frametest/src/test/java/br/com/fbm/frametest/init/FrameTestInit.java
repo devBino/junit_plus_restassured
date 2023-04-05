@@ -16,7 +16,7 @@ public class FrameTestInit {
 		
 		final String hostName = (args.length > 0)
 				? args[0]
-				: FrameTestConstants.CATEGORY_FIPE_API_FLOW_TESTS;
+				: FrameTestConstants.GEO_NAMES_API;
 				
 		FrameTestProcessor.processImplementationTest(hostName);
 		

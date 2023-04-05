@@ -14,6 +14,7 @@ public class FrameTestConstants {
 	public static final String VIA_CEP_API = "viacep";
 	public static final String REQ_RES_API = "reqres";
 	public static final String FIPE_API = "parallelum";
+	public static final String GEO_NAMES_API = "geonames";
 	
 	/**
 	 * Constants for Categorized Tests
