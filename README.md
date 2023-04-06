@@ -73,7 +73,7 @@
     <li><b>☐</b> Task 12 - Implement pdf report after tests</li>
     <li><b>☐</b> Task 13 - Implement tests to consumer a XML Soap Web Service</li>
     <li><b>☐</b> Task 14 - Implement a case using Mocks</li>
-    <li><b>☐</b> Task 15 - Implement a case integrated with JSoup library</li>
+    <li>Task 15 - Implement a case integrated with JSoup library <b>✔</b></li>
     <li><b>☐</b> Task 16 - Implement a case integrated with Selenium</li>
     <li><b>☐</b> Task 17 - Analyse if we gonna implement some graphical interface</li>
     <li><b>☐</b> Task 18 - Generate Jars and Document to Download</li>
@@ -318,8 +318,14 @@ such as: JSoup. Also, implement tests to consume XML Soap Responses.
 </p>
 
 <ul>   
-    <li><b>☐</b> Task 13 - Implement tests to consumer a XML Soap Web Service</li>
-    <li><b>☐</b> Task 15 - Implement a case integrated with JSoup library</li>
+    <li><b>☐</b> Task 13 - Implement tests to consumer a XML Soap Web Service <b>[Doing]</b></li>
+    <li><b> Task 15 - Implement a case integrated with JSoup library ✔</b><br>
+        <ul>
+            <li>Created a Test to capture links of a web site using JSoup library.</li>
+            <li>Created a Proxy Design Pattern to encapsulate and make sure use of the JSoup calleds.</li>
+            <li>Created a Parameterized test to apply a test for each link stored in project cache.</li>
+        </ul>
+    </li>
 </ul>
 
 <br>
@@ -349,7 +355,7 @@ such as: JSoup. Also, implement tests to consume XML Soap Responses.
 <p><b>Day 11:</b> [Expected 9,1667 Done 9] SPI = 0,98 <b>(X)</b></p>
 <p><b>Day 12:</b> [Expected 10,0000 Done 10] SPI = 1 <b>✔</b></p>
 <p><b>Day 13:</b> [Expected 10,8333 Done 10] SPI = 0,92 <b>(X)</b></p>
-<p><b>Day 14:</b> [Expected 11,6667 Done ?] SPI = ?  </p>
+<p><b>Day 14:</b> [Expected 11,6667 Done 11] SPI = 0,94 <b>(X)</b></p>
 <p><b>Day 15:</b> [Expected 12,5000 Done ?] SPI = ?  </p>
 <p><b>Day 16:</b> [Expected 13,3333 Done ?] SPI = ?  </p>
 <p><b>Day 17:</b> [Expected 14,1667 Done ?] SPI = ?  </p>
