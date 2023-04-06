@@ -10,7 +10,7 @@ import br.com.fbm.frametest.iface.FrameTest;
 import br.com.fbm.frametest.tests.moneytimes.MoneyTimesWebScrapLinksFeedTest;
 
 /**
- * {@code StrategyMoneyTimesWebScrappinTest} Strategic implementation to
+ * {@code StrategyMoneyTimesWebScrappingTest} Strategic implementation to
  * debugger tests to the web scrapping capturs from the money times vehicle
  *
  * @author Fernando Bino Machado

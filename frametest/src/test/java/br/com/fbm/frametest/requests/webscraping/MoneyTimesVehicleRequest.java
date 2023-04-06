@@ -14,7 +14,7 @@ import br.com.fbm.frametest.constants.MoneyTimesConstants;
  * to make requests and retrieve news from money times 
  * web site.
  *
- * @author NTT DATA - fmachado
+ * @author Fernando Bino Machado
  */
 public class MoneyTimesVehicleRequest {
 

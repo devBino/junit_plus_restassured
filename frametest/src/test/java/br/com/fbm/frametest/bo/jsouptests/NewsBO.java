@@ -3,7 +3,7 @@ package br.com.fbm.frametest.bo.jsouptests;
 import java.io.Serializable;
 
 /**
- * {@code NewsPapperBO} represent a new information
+ * {@code NewsBO} represent a new information
  * retrieved by web scraping in any web site.
  *
  * @author Fernando Bino Machado
