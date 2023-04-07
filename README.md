@@ -349,7 +349,7 @@ Implement a Runner functionality.
 </p>
 
 <ul> 
-    <li><b>☐</b> Task 10 - Implement runner functionality</li>  
+    <li><b>☐</b> Task 10 - Implement runner functionality <b>[Doing]</b></li>  
     <li><b> Task 13 - Implement tests to consumer a XML Soap Web Service ✔</b><br>
         <ul>
             <li>Refactored converters level to converter specific Json and specific xml responses too.</li>
