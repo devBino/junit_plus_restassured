@@ -1,17 +1,17 @@
-package br.com.fbm.frametest.requests.geonames;
+package br.com.fbm.frametest.requests.nytimes;
 
 import static io.restassured.RestAssured.*;
 
 import io.restassured.response.Response;
 
 /**
- * {@code GeoNamesRequest} given implementations
- * to do request to the api http://www.geonames.org/export/web-services.html
+ * {@code NyTimesRequest} given implementations
+ * to do request to the api https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
  * for the All it's Entities
  *
  * @author Fernando Bino Machado
  */
-public class GeoNamesRequest {
+public class NyTimesRequest {
 
 	private String baseUriApi;
 	
@@ -22,7 +22,7 @@ public class GeoNamesRequest {
 		this.baseUriApi = baseUriApi;
 	}
 	
-	public Response listCodes() {
+	public Response getXmlChannel() {
 		
 		try {
 			

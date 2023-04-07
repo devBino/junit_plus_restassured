@@ -14,7 +14,7 @@ public class FrameTestConstants {
 	public static final String VIA_CEP_API = "viacep";
 	public static final String REQ_RES_API = "reqres";
 	public static final String FIPE_API = "parallelum";
-	public static final String GEO_NAMES_API = "geonames";
+	public static final String NY_TIMES_WS = "nytimes";
 	public static final String MONEY_TIMES_CAPTURES = "MONEY_TIMES_CAPTURES";
 	
 	/**

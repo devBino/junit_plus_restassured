@@ -9,7 +9,7 @@ import org.junit.experimental.categories.Category;
 import org.junit.BeforeClass;
 
 import br.com.fbm.frametest.bo.viacep.CepBO;
-import br.com.fbm.frametest.converters.GenericConverter;
+import br.com.fbm.frametest.converters.json.GenericJsonConverter;
 import br.com.fbm.frametest.exception.RegistersNotReturnedException;
 import br.com.fbm.frametest.iface.TestListCategory;
 import br.com.fbm.frametest.iface.TestRegistersNotReturnedExceptionCategory;
@@ -35,7 +35,7 @@ public class TestCep {
 		
 		resp = cepRequest.getResponseCep("83603200");
 		
-		cepBO = (CepBO) GenericConverter
+		cepBO = (CepBO) GenericJsonConverter
 				.stringToObjBO(resp.getBody().asString(), CepBO.class);
 		
 	}
@@ -62,7 +62,7 @@ public class TestCep {
 		
 		Response resp = get("https://viacep.com.br/ws/83601341/json/");
 		
-		final CepBO localCepBO = (CepBO) GenericConverter
+		final CepBO localCepBO = (CepBO) GenericJsonConverter
 				.stringToObjBO(resp.getBody().asString(), CepBO.class);
 		
 		if( localCepBO.getCep() == null ) {

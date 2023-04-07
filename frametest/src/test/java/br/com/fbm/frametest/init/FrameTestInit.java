@@ -16,7 +16,7 @@ public class FrameTestInit {
 		
 		final String hostName = (args.length > 0)
 				? args[0]
-				: FrameTestConstants.GEO_NAMES_API;
+				: FrameTestConstants.NY_TIMES_WS;
 				
 		FrameTestProcessor.processImplementationTest(hostName);
 		

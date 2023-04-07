@@ -5,21 +5,21 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 import br.com.fbm.frametest.iface.FrameTest;
+import br.com.fbm.frametest.tests.nytimes.NyTimesTestWs;
 import br.com.fbm.frametest.annotation.TestMap;
-import br.com.fbm.frametest.tests.geonames.GeoNamesTestApis;
 import br.com.fbm.frametest.constants.FrameTestConstants;
 
 /**
- * {@code StrategyGeoNamesTest} Strategic implementation to
+ * {@code StrategyNyTimesTest} Strategic implementation to
  * debugger tests to the GeoNames Api
  * 
- * @see http://www.geonames.org/export/web-services.html
+ * @see https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
  *
  * @author Fernando Bino Machado
  */
 @RunWith(Suite.class)
 @SuiteClasses({
-	GeoNamesTestApis.class
+	NyTimesTestWs.class
 })
-@TestMap(hostNameApi = FrameTestConstants.GEO_NAMES_API)
-public class StrategyGeoNamesTest implements FrameTest {}
+@TestMap(hostNameApi = FrameTestConstants.NY_TIMES_WS)
+public class StrategyNyTimesTest implements FrameTest {}
