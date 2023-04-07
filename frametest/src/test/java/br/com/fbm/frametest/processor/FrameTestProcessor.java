@@ -14,7 +14,15 @@ import br.com.fbm.frametest.factories.FrameTestFactory;
  */
 public class FrameTestProcessor {
 
-	public static void processImplementationTest(final String pHostApiName) {
+	public static void processImplementationsTests(final String... pHostNames) {
+		
+		for(final String host : pHostNames) {
+			processImplementationTest(host);
+		}
+		
+	}
+
+	private static void processImplementationTest(final String pHostApiName) {
 		
 		final FrameTest frameTest = FrameTestFactory.getFrameTestByHostApiName(pHostApiName);
 

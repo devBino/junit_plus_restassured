@@ -1,4 +1,4 @@
-package br.com.fbm.frametest.converters;
+package br.com.fbm.frametest.converters.json;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -9,7 +9,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  *
  * @author Fernando Bino Machado
  */
-public abstract class AbstractConverter {
+public abstract class AbstractJsonConverter {
 
 	protected static ObjectMapper objMapper = new ObjectMapper();
 	
