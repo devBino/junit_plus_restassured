@@ -13,12 +13,13 @@ import br.com.fbm.frametest.processor.FrameTestProcessor;
 public class FrameTestInit {
 
 	public static void main(String[] args) {
-		
-		final String hostName = (args.length > 0)
-				? args[0]
-				: FrameTestConstants.NY_TIMES_WS;
 				
-		FrameTestProcessor.processImplementationTest(hostName);
+		FrameTestProcessor.processImplementationsTests(
+				FrameTestConstants.CATEGORY_FIPE_API_FLOW_TESTS,
+				FrameTestConstants.VIA_CEP_API,
+				FrameTestConstants.NY_TIMES_WS,
+				FrameTestConstants.MONEY_TIMES_CAPTURES
+		);
 		
 	}
 	
