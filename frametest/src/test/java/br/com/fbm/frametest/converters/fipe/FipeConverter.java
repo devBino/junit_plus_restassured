@@ -5,7 +5,7 @@ import java.util.List;
 
 import br.com.fbm.frametest.bo.fipe.BrandBO;
 import br.com.fbm.frametest.bo.fipe.YearBO;
-import br.com.fbm.frametest.converters.GenericConverter;
+import br.com.fbm.frametest.converters.json.GenericJsonConverter;
 
 /**
  * {@code FipeConverter} convert json response
@@ -14,7 +14,7 @@ import br.com.fbm.frametest.converters.GenericConverter;
  *
  * @author Fernando Bino Machado
  */
-public class FipeConverter extends GenericConverter {
+public class FipeConverter extends GenericJsonConverter {
 
 	public static List<BrandBO> stringToListBrandsBO(final String pJson) {
 		

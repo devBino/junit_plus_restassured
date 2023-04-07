@@ -9,9 +9,7 @@ import io.restassured.response.Response;
 
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.junit.rules.Timeout;
 import org.junit.BeforeClass;
-import org.junit.Rule;
 
 import br.com.fbm.frametest.requests.fipe.FipeRequest;
 import br.com.fbm.frametest.bo.fipe.BrandBO;

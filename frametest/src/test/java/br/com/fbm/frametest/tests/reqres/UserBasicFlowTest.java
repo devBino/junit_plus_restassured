@@ -14,7 +14,7 @@ import br.com.fbm.frametest.bo.reqres.UserBO;
 import br.com.fbm.frametest.bo.reqres.ResponseUserBO;
 import br.com.fbm.frametest.bo.reqres.ResponseUsersBO;
 
-import br.com.fbm.frametest.converters.GenericConverter;
+import br.com.fbm.frametest.converters.json.GenericJsonConverter;
 import br.com.fbm.frametest.iface.TestListCategory;
 import br.com.fbm.frametest.requests.reqres.UserRequest;
 
@@ -74,7 +74,7 @@ public class UserBasicFlowTest
 		}
 		
 		//convert response to next tests
-		final UserBO respUserBO = (UserBO) GenericConverter
+		final UserBO respUserBO = (UserBO) GenericJsonConverter
 				.stringToObjBO(response.getBody().asString(), UserBO.class);
 		
 		assertTrue("Request withou required params can't allowed create new user.", 
@@ -104,7 +104,7 @@ public class UserBasicFlowTest
 			.statusCode(201);
 
 		//convert response in an UserBO to next tests
-		savedUser = (UserBO) GenericConverter.stringToObjBO(resp.getBody().asString(), UserBO.class);
+		savedUser = (UserBO) GenericJsonConverter.stringToObjBO(resp.getBody().asString(), UserBO.class);
 		
 		//change user id to complete flow because reqres 
 		//is not returning corret values for it's methods
@@ -139,7 +139,7 @@ public class UserBasicFlowTest
 			.statusCode(200);
 		
 		//convert response to next tests
-		final ResponseUserBO respUserBO = (ResponseUserBO) GenericConverter
+		final ResponseUserBO respUserBO = (ResponseUserBO) GenericJsonConverter
 				.stringToObjBO(respGetUser.getBody().asString(), ResponseUserBO.class);
 
 		//we need to change temporaly all fields
@@ -181,7 +181,7 @@ public class UserBasicFlowTest
 			.statusCode(200);
 			
 		//convert response to next tests
-		final ResponseUsersBO respUsersBO = (ResponseUsersBO) GenericConverter
+		final ResponseUsersBO respUsersBO = (ResponseUsersBO) GenericJsonConverter
 				.stringToObjBO(respListUsers.getBody().asString(), ResponseUsersBO.class);
 	
 		assertNotNull("Response was converted to the BO object", respUsersBO);
@@ -223,7 +223,7 @@ public class UserBasicFlowTest
 			.statusCode(200);
 		
 		//convert response to next tests
-		final UserBO userBO = (UserBO) GenericConverter
+		final UserBO userBO = (UserBO) GenericJsonConverter
 				.stringToObjBO(respUpdateUser.getBody().asString(), UserBO.class);
 		
 		//for this moment we can't do tests here

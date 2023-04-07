@@ -1,4 +1,4 @@
-package br.com.fbm.frametest.converters;
+package br.com.fbm.frametest.converters.json;
 
 /**
  * {@code GenericConverter} given implementations
@@ -7,4 +7,4 @@ package br.com.fbm.frametest.converters;
  *
  * @author Fernando Bino Machado
  */
-public class GenericConverter extends AbstractConverter {}
+public class GenericJsonConverter extends AbstractJsonConverter {}

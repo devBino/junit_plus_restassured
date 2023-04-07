@@ -71,7 +71,7 @@
     <li><b>☐</b> Task 10 - Implement runner functionality</li>
     <li><b>☐</b> Task 11 - Implement report functionality</li>
     <li><b>☐</b> Task 12 - Implement pdf report after tests</li>
-    <li><b>☐</b> Task 13 - Implement tests to consumer a XML Soap Web Service</li>
+    <li>Task 13 - Implement tests to consumer a XML Soap Web Service <b>✔</b></li>
     <li><b>☐</b> Task 14 - Implement a case using Mocks</li>
     <li>Task 15 - Implement a case integrated with JSoup library <b>✔</b></li>
     <li><b>☐</b> Task 16 - Implement a case integrated with Selenium</li>
@@ -349,8 +349,14 @@ Implement a Runner functionality.
 </p>
 
 <ul> 
-    <li><b>☐</b> Task 10 - Implement runner functionality</li>  
-    <li><b>☐</b> Task 13 - Implement tests to consumer a XML Soap Web Service <b>[Doing]</b></li>
+    <li><b>☐</b> Task 10 - Implement runner functionality <b>[Doing]</b></li>  
+    <li><b> Task 13 - Implement tests to consumer a XML Soap Web Service ✔</b><br>
+        <ul>
+            <li>Refactored converters level to converter specific Json and specific xml responses too.</li>
+            <li>Created Classes BO to converter string responses xml.</li>
+            <li>Created tests with xml reponses returned from https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml</li>
+        </ul>
+    </li>
 </ul>
 
 <br>
@@ -382,7 +388,7 @@ Implement a Runner functionality.
 <p><b>Day 13:</b> [Expected 10,8333 Done 10] SPI = 0,92 <b>(X)</b></p>
 <p><b>Day 14:</b> [Expected 11,6667 Done 11] SPI = 0,94 <b>(X)</b></p>
 <p><b>Day 15:</b> [Expected 12,5000 Done 11] SPI = 0,88 <b>(X)</b></p>
-<p><b>Day 16:</b> [Expected 13,3333 Done 11] SPI = 0,82 <b>(X)</b></p>
+<p><b>Day 16:</b> [Expected 13,3333 Done 12] SPI = 0,9 <b>(X)</b></p>
 <p><b>Day 17:</b> [Expected 14,1667 Done ?] SPI = ?  </p>
 <p><b>Day 18:</b> [Expected 15,0000 Done ?] SPI = ?  </p>
 <p><b>Day 19:</b> [Expected 15,8333 Done ?] SPI = ?  </p>
