@@ -3,7 +3,7 @@ package br.com.fbm.frametest.requests.reqres;
 import static io.restassured.RestAssured.*;
 
 import br.com.fbm.frametest.bo.reqres.UserBO;
-import br.com.fbm.frametest.converters.GenericConverter;
+import br.com.fbm.frametest.converters.json.GenericJsonConverter;
 import io.restassured.response.Response;
 
 /**
@@ -31,7 +31,7 @@ public class UserRequest {
 			baseURI = baseUriApi;
 			
 			return given()
-					.body(GenericConverter.objBoToString(pUserBO))
+					.body(GenericJsonConverter.objBoToString(pUserBO))
 					.when()
 					.post("/api/users");
 			
@@ -49,7 +49,7 @@ public class UserRequest {
 			baseURI = baseUriApi;
 			
 			return given()
-					.body(GenericConverter.objBoToString(pUserBO))
+					.body(GenericJsonConverter.objBoToString(pUserBO))
 					.when()
 					.put("/api/users/" + String.valueOf( pUserBO.getId() ) );
 			
