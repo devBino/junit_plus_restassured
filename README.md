@@ -94,8 +94,8 @@
 <p><b><a href="#h2-sprint5"> Sprint 5</a></b> Starts 31-03-2023 - Finish 01-04-2023 <b>✔</b></p>
 <p><b><a href="#h2-sprint6"> Sprint 6</a></b> Starts 02-04-2023 - Finish 03-04-2023 <b>✔</b></p>
 <p><b><a href="#h2-sprint7"> Sprint 7</a></b> Starts 04-04-2023 - Finish 05-04-2023 <b>✔</b></p>
-<p><b><a href="#h2-sprint8"> Sprint 8</a></b> Starts 06-04-2023 - Finish 07-04-2023 <b>[Current]</b></p>
-<p><b> Sprint 9</b> Starts 08-04-2023 - Finish 09-04-2023</p>
+<p><b><a href="#h2-sprint8"> Sprint 8</a></b> Starts 06-04-2023 - Finish 07-04-2023 <b>✔</b></p>
+<p><b><a href="#h2-sprint9"> Sprint 9</a></b> Starts 08-04-2023 - Finish 09-04-2023 <b>[Current]</b></p>
 <p><b> Sprint 10</b> Starts 10-04-2023 - Finish 11-04-2023</p>
 <p><b> Sprint 11</b> Starts 12-04-2023 - Finish 13-04-2023</p>
 <p><b> Sprint 12</b> Starts 14-04-2023 - Finish 15-04-2023</p>
@@ -361,6 +361,29 @@ Implement a Runner functionality.
             <li>Created tests with xml reponses returned from https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml</li>
         </ul>
     </li>
+</ul>
+
+<br>
+<p><b>Report: </b>Sprint 8 was finished with SPI indicator with 0,9 value.
+Also, was worked and finish all goals.</p>
+<br>
+
+<a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-sprint9">SPRINT 9</h2><br>
+
+<br>
+
+<p>
+<b>Sprint Goal: </b> Implement Test using Mocks. Implement Tests using Selenium
+</p>
+
+<ul> 
+    <li><b>☐</b> Task 14 - Implement a case using Mocks</li>
+    <li><b>☐</b> Task 16 - Implement a case integrated with Selenium</li>
 </ul>
 
 <br>
