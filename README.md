@@ -37,6 +37,8 @@
 
 <p>[1] - This project has a risk. Some sprints could be goals not finished, because we are working in free times, and inespected externals sitiuations can be more priority.</b>
 
+<p>[2] - Project Backlog was changed in the Task 16 because Selenium is a software to automated tests too, like JUnit. So, is not viable and confuse an automated tool testing another automated tool. Because this, task 16 was changed to new features.</b>
+
 <a href="#h2-summary">Go Back Summary</a>
 
 <br>
@@ -74,7 +76,7 @@
     <li>Task 13 - Implement tests to consumer a XML Soap Web Service <b>✔</b></li>
     <li><b>☐</b> Task 14 - Implement a case using Mocks</li>
     <li>Task 15 - Implement a case integrated with JSoup library <b>✔</b></li>
-    <li><b>☐</b> Task 16 - Implement a case integrated with Selenium</li>
+    <li><b>☐</b> Task 16 - Implement Tests for one of the Apis Choosed in the Task 19</li>
     <li><b>☐</b> Task 17 - Analyse if we gonna implement some graphical interface</li>
     <li><b>☐</b> Task 18 - Generate Jars and Document to Download</li>
     <li>Task 19 - Choose some free Rest Apis and Soap WebServices to include to the project <b>✔</b></li>
@@ -383,7 +385,7 @@ Also, was worked and finish all goals.</p>
 
 <ul> 
     <li><b>☐</b> Task 14 - Implement a case using Mocks</li>
-    <li><b>☐</b> Task 16 - Implement a case integrated with Selenium</li>
+    <li><b>☐</b> Task 16 - Implement Tests for one of the Apis Choosed in the Task 19</li>
 </ul>
 
 <br>
