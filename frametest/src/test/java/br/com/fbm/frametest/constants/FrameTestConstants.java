@@ -15,7 +15,8 @@ public class FrameTestConstants {
 	public static final String REQ_RES_API = "reqres";
 	public static final String FIPE_API = "parallelum";
 	public static final String NY_TIMES_WS = "nytimes";
-	public static final String MONEY_TIMES_CAPTURES = "MONEY_TIMES_CAPTURES";
+	public static final String MONEY_TIMES_CAPTURES = "money_times_captures";
+	public static final String FAKE_STORE_API = "fakestoreapi";
 	
 	/**
 	 * Constants for Categorized Tests
