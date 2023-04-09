@@ -40,6 +40,22 @@ public class FakeStoreRequest {
 		
 	}
 	
+	public Response getProductById(final int pId) {
+		
+		try {
+			
+			baseURI = baseUriApi;
+			
+			return given()
+					.get("/" + String.valueOf(pId));
+			
+		}catch(final Exception exception) {
+			System.out.println(exception.getMessage());
+			return null;
+		}
+		
+	}
+	
 	public Response saveProduct(final ProductBO pProductBO) {
 		
 		try {

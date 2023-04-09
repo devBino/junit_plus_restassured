@@ -57,6 +57,35 @@ public class TestFakeStoreApi {
 	}
 	
 	@Test
+	public void testGetProductById() {
+		
+		//send request to get response of the product
+		final Response respProduct = request.getProductById(11);
+		
+		if(respProduct == null) {
+			fail("No Product was found.");
+			return;
+		}
+		
+		//convert response to ProductBO to next tests
+		final ProductBO productBO = (ProductBO) FakeStoreConverter
+				.stringToObjBO(respProduct.getBody().asString(), ProductBO.class);
+		
+		if(productBO == null) {
+			fail("No Product was converted.");
+			return;
+		}
+		
+		//apply all tests
+		assertNotNull("Product Id Was Retrieved", productBO.getId());
+		assertNotNull("Product Title Was Retrieved", productBO.getTitle());
+		assertNotNull("Product Description Was Retrieved", productBO.getDescription());
+		assertNotNull("Product Category Was Retrieved", productBO.getCategory());
+		assertNotNull("Product Image Was Retrieved", productBO.getImage());
+		
+	}
+	
+	@Test
 	public void testSaveProduct() {
 		
 		//create a fake product
