@@ -15,6 +15,7 @@ public class FrameTestInit {
 	public static void main(String[] args) {
 				
 		FrameTestProcessor.processImplementationsTests(
+				FrameTestConstants.FAKE_STORE_API,
 				FrameTestConstants.CATEGORY_FIPE_API_FLOW_TESTS,
 				FrameTestConstants.VIA_CEP_API,
 				FrameTestConstants.NY_TIMES_WS,
