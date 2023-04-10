@@ -7,6 +7,7 @@ import java.util.List;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.mockito.Mockito;
 
 import br.com.fbm.frametest.bo.fakestore.ProductBO;
 import br.com.fbm.frametest.converters.fakestore.FakeStoreConverter;
@@ -122,6 +123,58 @@ public class TestFakeStoreApi {
 		
 		assertTrue("Product Description was saved.", 
 				productBO.getDescription().equals(savedProductBO.getDescription()));
+		
+	}
+	
+	@Test
+	public void testMockSaveProduct() {
+		
+		//create a fake product
+		final ProductBO productBO = new ProductBO();
+		
+		productBO.setTitle("Xbox Series X");
+		productBO.setPrice(new BigDecimal("5559.99"));
+		productBO.setDescription("Xbox Series X");
+		productBO.setImage("https://m.media-amazon.com/images/I/61eYoSqkHnL._AC_SL1200_.jpg");
+		productBO.setCategory("Games");
+		
+		//create a fake expected result
+		final ProductBO productBOExpected = new ProductBO();
+		
+		productBOExpected.setId(10);
+		productBOExpected.setTitle( productBO.getTitle() );
+		productBOExpected.setPrice( productBO.getPrice() );
+		productBOExpected.setDescription( productBO.getDescription() );
+		productBOExpected.setImage( productBO.getImage() );
+		productBOExpected.setCategory( productBO.getCategory() );
+		
+		//create a Mock to simulate request to create new Product
+		final FakeStoreRequest fakeStoreRequest = Mockito.mock(FakeStoreRequest.class);
+		
+		//traine this mock behavior
+		Mockito
+			.when( fakeStoreRequest.saveProductAndReturnBO(productBO) )
+			.thenReturn( productBOExpected );
+		
+		//test mock
+		final ProductBO mockTestProductBO = fakeStoreRequest.saveProductAndReturnBO(productBO);
+		
+		//verifify it the mock method was called correct way
+		Mockito
+			.verify(fakeStoreRequest, Mockito.times(1))
+			.saveProductAndReturnBO(productBO);
+		
+		//apply some tests to check if new product was saved using mock simulated test
+		assertTrue("Testing mock Product with returned id 10.", 
+				mockTestProductBO.getId() == 10);
+		
+		assertEquals("Product Title was saved.", productBOExpected.getTitle(), mockTestProductBO.getTitle());
+		
+		assertTrue("Product Price was saved.", 
+				productBOExpected.getPrice().compareTo(mockTestProductBO.getPrice()) == 0 );
+		
+		assertTrue("Product Description was saved.", 
+				productBOExpected.getDescription().equals(mockTestProductBO.getDescription()));
 		
 	}
 
