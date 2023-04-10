@@ -42,6 +42,27 @@ public class UserRequest {
 		
 	}
 	
+	public UserBO createAndReturnObjectBO(final UserBO pUserBO) {
+		
+		try {
+		
+			baseURI = baseUriApi;
+			
+			final Response resp = given()
+					.body(GenericJsonConverter.objBoToString(pUserBO))
+					.when()
+					.post("/api/users");
+			
+			return (UserBO) GenericJsonConverter
+					.stringToObjBO(resp.getBody().asString(), UserBO.class);
+			
+		}catch(final Exception exception) {
+			System.out.println(exception.getMessage());
+			return null;
+		}
+		
+	}
+	
 	public Response update(final UserBO pUserBO) {
 		
 		try {

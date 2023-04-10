@@ -74,7 +74,7 @@
     <li><b>☐</b> Task 11 - Implement report functionality</li>
     <li><b>☐</b> Task 12 - Implement pdf report after tests</li>
     <li>Task 13 - Implement tests to consumer a XML Soap Web Service <b>✔</b></li>
-    <li><b>☐</b> Task 14 - Implement a case using Mocks</li>
+    <li>Task 14 - Implement a case using Mocks <b>✔</b></li>
     <li>Task 15 - Implement a case integrated with JSoup library <b>✔</b></li>
     <li>Task 16 - Implement Tests for one of the Apis Choosed in the Task 19 <b>✔</b></li>
     <li><b>☐</b> Task 17 - Analyse if we gonna implement some graphical interface</li>
@@ -384,7 +384,12 @@ Also, was worked and finish all goals.</p>
 </p>
 
 <ul> 
-    <li><b>☐</b> Task 14 - Implement a case using Mocks</li>
+    <li><b> Task 14 - Implement a case using Mocks ✔</b><br>
+        <ul>
+            <li>Was Created a mock test to the Reqres api.</li>
+            <li>Was Created a mock test to the FakeStoreApi api.</li>
+        </ul>
+    </li>
     <li><b> Task 16 - Implement Tests for one of the Apis Choosed in the Task 19 ✔</b><br>
         <ul>
             <li>Was Created a test to list products.</li>
@@ -425,7 +430,7 @@ Also, was worked and finish all goals.</p>
 <p><b>Day 15:</b> [Expected 12,5000 Done 11] SPI = 0,88 <b>(X)</b></p>
 <p><b>Day 16:</b> [Expected 13,3333 Done 13] SPI = 0,97 <b>(X)</b></p>
 <p><b>Day 17:</b> [Expected 14,1667 Done 14] SPI = 0,99 <b>(X)</b></p>
-<p><b>Day 18:</b> [Expected 15,0000 Done ?] SPI = ?  </p>
+<p><b>Day 18:</b> [Expected 15,0000 Done 15] SPI = 1 <b>✔</b></p>
 <p><b>Day 19:</b> [Expected 15,8333 Done ?] SPI = ?  </p>
 <p><b>Day 20:</b> [Expected 16,6667 Done ?] SPI = ?  </p>
 <p><b>Day 21:</b> [Expected 17,5000 Done ?] SPI = ?  </p>

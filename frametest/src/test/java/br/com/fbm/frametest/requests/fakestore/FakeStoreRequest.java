@@ -74,5 +74,28 @@ public class FakeStoreRequest {
 		
 	}
 	
+	public ProductBO saveProductAndReturnBO(final ProductBO pProductBO) {
+		
+		try {
+			
+			baseURI = baseUriApi;
+			
+			final Response responseSave = given()
+					.body(FakeStoreConverter.objBoToString(pProductBO))
+					.when()
+					.post();
+			
+			final ProductBO savedProductBO = (ProductBO) FakeStoreConverter
+					.stringToObjBO(responseSave.getBody().asString(), ProductBO.class);
+			
+			return savedProductBO;
+			
+		}catch(final Exception exception) {
+			System.out.println(exception.getMessage());
+			return null;
+		}
+		
+	}
+	
 	
 }

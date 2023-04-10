@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import java.util.Optional;
 
-import org.junit.experimental.categories.Category;
+import org.mockito.Mockito;
 
 import io.restassured.response.Response;
 
@@ -15,7 +15,6 @@ import br.com.fbm.frametest.bo.reqres.ResponseUserBO;
 import br.com.fbm.frametest.bo.reqres.ResponseUsersBO;
 
 import br.com.fbm.frametest.converters.json.GenericJsonConverter;
-import br.com.fbm.frametest.iface.TestListCategory;
 import br.com.fbm.frametest.requests.reqres.UserRequest;
 
 /**
@@ -30,6 +29,7 @@ public class UserBasicFlowTest
 
 	private static UserBO newUser;
 	private static UserBO savedUser;
+	private static UserBO expectedSimulatedUser;
 	private static Response resp;
 	private static UserRequest userRequest;
 
@@ -40,8 +40,16 @@ public class UserBasicFlowTest
 	*/
 	@Override
 	public void setUpBefore() {
+		
 		userRequest = new UserRequest();
 		userRequest.setBaseUriApi("https://reqres.in");
+		
+		expectedSimulatedUser = new UserBO();
+		
+		expectedSimulatedUser.setId(2);
+		expectedSimulatedUser.setName("fernando bino");
+		expectedSimulatedUser.setJob("try became a software specialist");
+		
 	}
 	
 	/*
@@ -93,28 +101,40 @@ public class UserBasicFlowTest
 		//prepare a UserBO
 		newUser = new UserBO();
 		
-		newUser.setName("fernando bino");
-		newUser.setJob("try became a software specialist");
+		newUser.setName( expectedSimulatedUser.getName() );
+		newUser.setJob( expectedSimulatedUser.getJob() );
 		
-		//send request to create register
+		//send original request to create register
 		resp = userRequest.create(newUser);
 		
 		resp
 			.then()
-			.statusCode(201);
-
-		//convert response in an UserBO to next tests
-		savedUser = (UserBO) GenericJsonConverter.stringToObjBO(resp.getBody().asString(), UserBO.class);
+			.statusCode(201)
+			.log()
+			.all();
 		
-		//change user id to complete flow because reqres 
-		//is not returning corret values for it's methods
-		//so, we are using user id 2, that is default example id 
-		//on the documentation
-		savedUser.setId(2);
+		//create a mock test because responses when we create a new user
+		//is not been correct since web service
+		final UserRequest mockUserRequest = Mockito.mock(UserRequest.class);
+		
+		//traine mock test
+		Mockito
+			.when(mockUserRequest.createAndReturnObjectBO(newUser))
+			.thenReturn(expectedSimulatedUser);
+
+		//call mock test method
+		savedUser = mockUserRequest.createAndReturnObjectBO(newUser);
+		
+		//verify if was called correct way
+		Mockito
+			.verify(mockUserRequest, Mockito.times(1))
+			.createAndReturnObjectBO(newUser);
 		
 		//aply some tests
 		assertNotNull("Request Was Successfully", resp);
 		assertTrue("An User Id Exists", savedUser.getId() > 0 );
+		assertEquals("User name was created.", savedUser.getName(), expectedSimulatedUser.getName());
+		assertEquals("User job was created.", savedUser.getJob(), expectedSimulatedUser.getJob());
 		
 	}
 	
@@ -143,7 +163,7 @@ public class UserBasicFlowTest
 				.stringToObjBO(respGetUser.getBody().asString(), ResponseUserBO.class);
 
 		//we need to change temporaly all fields
-		//of the savedUser, becuase all returns came api reqres 
+		//of the savedUser, because all returns came api reqres 
 		//is not correct.
 		savedUser.setName( respUserBO.getData().getFirst_name() );
 		savedUser.setJob( respUserBO.getData().getJob() );
