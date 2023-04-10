@@ -74,7 +74,7 @@
     <li><b>☐</b> Task 11 - Implement report functionality</li>
     <li><b>☐</b> Task 12 - Implement pdf report after tests</li>
     <li>Task 13 - Implement tests to consumer a XML Soap Web Service <b>✔</b></li>
-    <li><b>Task 14 - Implement a case using Mocks <b>✔</b></li>
+    <li>Task 14 - Implement a case using Mocks <b>✔</b></li>
     <li>Task 15 - Implement a case integrated with JSoup library <b>✔</b></li>
     <li>Task 16 - Implement Tests for one of the Apis Choosed in the Task 19 <b>✔</b></li>
     <li><b>☐</b> Task 17 - Analyse if we gonna implement some graphical interface</li>
