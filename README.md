@@ -419,7 +419,7 @@ Also, was worked and finish all goals.</p>
 </p>
 
 <ul> 
-    <li><b>☐</b> Task 11 - Implement report functionality<b>[Doing]</b></li>
+    <li><b>☐</b> Task 11 - Implement report functionality<b> [Doing]</b></li>
     <li><b>☐</b> Task 12 - Implement pdf report after tests</li>
 </ul>
 
@@ -442,7 +442,7 @@ Also, was worked to finish all goals.</p>
 </p>
 
 <ul> 
-    <li><b>☐</b> Task 11 - Implement report functionality<b>[Doing]</b></li>
+    <li><b>☐</b> Task 11 - Implement report functionality<b> [Doing]</b></li>
     <li><b>☐</b> Task 12 - Implement pdf report after tests</li>
 </ul>
 
@@ -480,7 +480,7 @@ Also, was worked to finish all goals.</p>
 <p><b>Day 18:</b> [Expected 15,0000 Done 15] SPI = 1 <b>✔</b></p>
 <p><b>Day 19:</b> [Expected 15,8333 Done 15] SPI = 0,95 <b>(X)</b></p>
 <p><b>Day 20:</b> [Expected 16,6667 Done 15] SPI = 0,90 <b>(X)</b></p>
-<p><b>Day 21:</b> [Expected 17,5000 Done ?] SPI = ?  </p>
+<p><b>Day 21:</b> [Expected 17,5000 Done 15] SPI = 0,86 <b>(X)</b></p>
 <p><b>Day 22:</b> [Expected 18,3333 Done ?] SPI = ?  </p>
 <p><b>Day 23:</b> [Expected 19,1667 Done ?] SPI = ?  </p>
 <p><b>Day 24:</b> [Expected 20,0000 Done ?] SPI = ?  </p>
