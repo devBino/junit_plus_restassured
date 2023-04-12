@@ -98,8 +98,8 @@
 <p><b><a href="#h2-sprint7"> Sprint 7</a></b> Starts 04-04-2023 - Finish 05-04-2023 <b>✔</b></p>
 <p><b><a href="#h2-sprint8"> Sprint 8</a></b> Starts 06-04-2023 - Finish 07-04-2023 <b>✔</b></p>
 <p><b><a href="#h2-sprint9"> Sprint 9</a></b> Starts 08-04-2023 - Finish 09-04-2023 <b>✔</b></p>
-<p><b><a href="#h2-sprint10"> Sprint 10</a></b> Starts 10-04-2023 - Finish 11-04-2023 <b>[Current]</b></p>
-<p><b> Sprint 11</b> Starts 12-04-2023 - Finish 13-04-2023</p>
+<p><b><a href="#h2-sprint10"> Sprint 10</a></b> Starts 10-04-2023 - Finish 11-04-2023 <b>(X)</b></p>
+<p><b><a href="#h2-sprint11"> Sprint 11</a></b> Starts 12-04-2023 - Finish 13-04-2023 <b>[Current]</b></p>
 <p><b> Sprint 12</b> Starts 14-04-2023 - Finish 15-04-2023</p>
 
 <a href="#h2-summary">Go Back Summary</a>
@@ -419,7 +419,30 @@ Also, was worked and finish all goals.</p>
 </p>
 
 <ul> 
-    <li><b>☐</b> Task 11 - Implement report functionality</li>
+    <li><b>☐</b> Task 11 - Implement report functionality<b>[Doing]</b></li>
+    <li><b>☐</b> Task 12 - Implement pdf report after tests</li>
+</ul>
+
+<br>
+<p><b>Report: </b>Sprint 10 was finished with SPI indicator value 0,9.
+Also, was worked to finish all goals.</p>
+<br>
+
+<a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-sprint11">SPRINT 11</h2><br>
+
+<br>
+
+<p>
+<b>Sprint Goal: Work to finish Test Reports.</b> 
+</p>
+
+<ul> 
+    <li><b>☐</b> Task 11 - Implement report functionality<b>[Doing]</b></li>
     <li><b>☐</b> Task 12 - Implement pdf report after tests</li>
 </ul>
 
@@ -456,7 +479,7 @@ Also, was worked and finish all goals.</p>
 <p><b>Day 17:</b> [Expected 14,1667 Done 14] SPI = 0,99 <b>(X)</b></p>
 <p><b>Day 18:</b> [Expected 15,0000 Done 15] SPI = 1 <b>✔</b></p>
 <p><b>Day 19:</b> [Expected 15,8333 Done 15] SPI = 0,95 <b>(X)</b></p>
-<p><b>Day 20:</b> [Expected 16,6667 Done ?] SPI = ?  </p>
+<p><b>Day 20:</b> [Expected 16,6667 Done 15] SPI = 0,90 <b>(X)</b></p>
 <p><b>Day 21:</b> [Expected 17,5000 Done ?] SPI = ?  </p>
 <p><b>Day 22:</b> [Expected 18,3333 Done ?] SPI = ?  </p>
 <p><b>Day 23:</b> [Expected 19,1667 Done ?] SPI = ?  </p>
