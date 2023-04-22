@@ -1,5 +1,11 @@
 <h1>Project To Study how to consumer and test APIs with JUnit and RestAssured</h1>
 
+<br>
+<p>
+<b>This project has been paused since the 12th (the 21st of the project) for major reasons, and will be continued on 05-15-2023.</b>
+</p>
+<br>
+
 <h2 id="h2-summary">Summary</h2>
 
 <ul>
@@ -37,6 +43,8 @@
 
 <p>[1] - This project has a risk. Some sprints could be goals not finished, because we are working in free times, and inespected externals sitiuations can be more priority.</b>
 
+<p>[2] - Project Backlog was changed in the Task 16 because Selenium is a software to automated tests too, like JUnit. So, is not viable and confuse an automated tool testing another automated tool. Because this, task 16 was changed to new features.</b>
+
 <a href="#h2-summary">Go Back Summary</a>
 
 <br>
@@ -72,9 +80,9 @@
     <li><b>☐</b> Task 11 - Implement report functionality</li>
     <li><b>☐</b> Task 12 - Implement pdf report after tests</li>
     <li>Task 13 - Implement tests to consumer a XML Soap Web Service <b>✔</b></li>
-    <li><b>☐</b> Task 14 - Implement a case using Mocks</li>
+    <li>Task 14 - Implement a case using Mocks <b>✔</b></li>
     <li>Task 15 - Implement a case integrated with JSoup library <b>✔</b></li>
-    <li><b>☐</b> Task 16 - Implement a case integrated with Selenium</li>
+    <li>Task 16 - Implement Tests for one of the Apis Choosed in the Task 19 <b>✔</b></li>
     <li><b>☐</b> Task 17 - Analyse if we gonna implement some graphical interface</li>
     <li><b>☐</b> Task 18 - Generate Jars and Document to Download</li>
     <li>Task 19 - Choose some free Rest Apis and Soap WebServices to include to the project <b>✔</b></li>
@@ -94,10 +102,10 @@
 <p><b><a href="#h2-sprint5"> Sprint 5</a></b> Starts 31-03-2023 - Finish 01-04-2023 <b>✔</b></p>
 <p><b><a href="#h2-sprint6"> Sprint 6</a></b> Starts 02-04-2023 - Finish 03-04-2023 <b>✔</b></p>
 <p><b><a href="#h2-sprint7"> Sprint 7</a></b> Starts 04-04-2023 - Finish 05-04-2023 <b>✔</b></p>
-<p><b><a href="#h2-sprint8"> Sprint 8</a></b> Starts 06-04-2023 - Finish 07-04-2023 <b>[Current]</b></p>
-<p><b> Sprint 9</b> Starts 08-04-2023 - Finish 09-04-2023</p>
-<p><b> Sprint 10</b> Starts 10-04-2023 - Finish 11-04-2023</p>
-<p><b> Sprint 11</b> Starts 12-04-2023 - Finish 13-04-2023</p>
+<p><b><a href="#h2-sprint8"> Sprint 8</a></b> Starts 06-04-2023 - Finish 07-04-2023 <b>✔</b></p>
+<p><b><a href="#h2-sprint9"> Sprint 9</a></b> Starts 08-04-2023 - Finish 09-04-2023 <b>✔</b></p>
+<p><b><a href="#h2-sprint10"> Sprint 10</a></b> Starts 10-04-2023 - Finish 11-04-2023 <b>(X)</b></p>
+<p><b><a href="#h2-sprint11"> Sprint 11</a></b> Starts 12-04-2023 - Finish 13-04-2023 <b>[Current]</b></p>
 <p><b> Sprint 12</b> Starts 14-04-2023 - Finish 15-04-2023</p>
 
 <a href="#h2-summary">Go Back Summary</a>
@@ -364,6 +372,87 @@ Implement a Runner functionality.
 </ul>
 
 <br>
+<p><b>Report: </b>Sprint 8 was finished with SPI indicator with 0,9 value.
+Also, was worked and finish all goals.</p>
+<br>
+
+<a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-sprint9">SPRINT 9</h2><br>
+
+<br>
+
+<p>
+<b>Sprint Goal: </b> Implement Test using Mocks. Implement a test case to the APIs chooesed
+at task 19.
+</p>
+
+<ul> 
+    <li><b> Task 14 - Implement a case using Mocks ✔</b><br>
+        <ul>
+            <li>Was Created a mock test to the Reqres api.</li>
+            <li>Was Created a mock test to the FakeStoreApi api.</li>
+        </ul>
+    </li>
+    <li><b> Task 16 - Implement Tests for one of the Apis Choosed in the Task 19 ✔</b><br>
+        <ul>
+            <li>Was Created a test to list products.</li>
+            <li>Was Created a test to get product by id.</li>
+            <li>Was Created a test to register products.</li>
+        </ul>
+    </li>
+</ul>
+
+<br>
+<p><b>Report: </b>Sprint 9 was finished with SPI indicator value 1.
+Also, was worked and finish all goals.</p>
+<br>
+
+<a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-sprint10">SPRINT 10</h2><br>
+
+<br>
+
+<p>
+<b>Sprint Goal: Work to finish Test Reports.</b> 
+</p>
+
+<ul> 
+    <li><b>☐</b> Task 11 - Implement report functionality<b> [Doing]</b></li>
+    <li><b>☐</b> Task 12 - Implement pdf report after tests</li>
+</ul>
+
+<br>
+<p><b>Report: </b>Sprint 10 was finished with SPI indicator value 0,9.
+Also, was worked to finish all goals.</p>
+<br>
+
+<a href="#h2-sprints">Go Back List Sprints</a><br>
+<a href="#h2-summary">Go Back Summary</a>
+
+<br>
+
+<h2 id="h2-sprint11">SPRINT 11</h2><br>
+
+<br>
+
+<p>
+<b>Sprint Goal: Work to finish Test Reports.</b> 
+</p>
+
+<ul> 
+    <li><b>☐</b> Task 11 - Implement report functionality<b> [Doing]</b></li>
+    <li><b>☐</b> Task 12 - Implement pdf report after tests</li>
+</ul>
+
+<br>
 
 <a href="#h2-sprints">Go Back List Sprints</a><br>
 <a href="#h2-summary">Go Back Summary</a>
@@ -393,11 +482,11 @@ Implement a Runner functionality.
 <p><b>Day 14:</b> [Expected 11,6667 Done 11] SPI = 0,94 <b>(X)</b></p>
 <p><b>Day 15:</b> [Expected 12,5000 Done 11] SPI = 0,88 <b>(X)</b></p>
 <p><b>Day 16:</b> [Expected 13,3333 Done 13] SPI = 0,97 <b>(X)</b></p>
-<p><b>Day 17:</b> [Expected 14,1667 Done ?] SPI = ?  </p>
-<p><b>Day 18:</b> [Expected 15,0000 Done ?] SPI = ?  </p>
-<p><b>Day 19:</b> [Expected 15,8333 Done ?] SPI = ?  </p>
-<p><b>Day 20:</b> [Expected 16,6667 Done ?] SPI = ?  </p>
-<p><b>Day 21:</b> [Expected 17,5000 Done ?] SPI = ?  </p>
+<p><b>Day 17:</b> [Expected 14,1667 Done 14] SPI = 0,99 <b>(X)</b></p>
+<p><b>Day 18:</b> [Expected 15,0000 Done 15] SPI = 1 <b>✔</b></p>
+<p><b>Day 19:</b> [Expected 15,8333 Done 15] SPI = 0,95 <b>(X)</b></p>
+<p><b>Day 20:</b> [Expected 16,6667 Done 15] SPI = 0,90 <b>(X)</b></p>
+<p><b>Day 21:</b> [Expected 17,5000 Done 15] SPI = 0,86 <b>(X)</b></p>
 <p><b>Day 22:</b> [Expected 18,3333 Done ?] SPI = ?  </p>
 <p><b>Day 23:</b> [Expected 19,1667 Done ?] SPI = ?  </p>
 <p><b>Day 24:</b> [Expected 20,0000 Done ?] SPI = ?  </p>
