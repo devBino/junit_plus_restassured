@@ -1,5 +1,11 @@
 <h1>Project To Study how to consumer and test APIs with JUnit and RestAssured</h1>
 
+<br>
+<p>
+<b>This project has been paused since the 12th (the 21st of the project) for major reasons, and will be resumed on 05-15-2023.</b>
+</p>
+<br>
+
 <h2 id="h2-summary">Summary</h2>
 
 <ul>
