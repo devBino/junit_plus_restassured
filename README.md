@@ -2,7 +2,7 @@
 
 <br>
 <p>
-<b>This project has been paused since the 12th (the 21st of the project) for major reasons, and will be resumed on 05-15-2023.</b>
+<b>This project has been paused since the 12th (the 21st of the project) for major reasons, and will be continued on 05-15-2023.</b>
 </p>
 <br>
 
